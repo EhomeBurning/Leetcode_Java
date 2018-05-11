@@ -11,4 +11,7 @@ Leetcode 136 Single Number<br>
 
 **5.9** <br>
 
+**5.10** <br>
+Leetcode 6 Zig Zag Conversion
+
 
