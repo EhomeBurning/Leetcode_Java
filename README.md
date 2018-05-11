@@ -10,8 +10,13 @@ Leetcode 292 Nim Game <br>
 Leetcode 136 Single Number<br>
 
 **5.9** <br>
+Leetcode 14 Longest Number Prefix <br>
+Leetcode 11 Container With The Most Water <br>
 
 **5.10** <br>
-Leetcode 6 Zig Zag Conversion
-
+Leetcode 461 Hamming Distance <br>
+Leetcode 6 Zig Zag Conversion <br>
+Leetcode 9 Palindrome Number <br>
+Leetcode 3 Longest Substring Without Repeating Character 
+Leetcode 12 Integer To Roman
 
