@@ -20,3 +20,10 @@ Leetcode 9 Palindrome Number <br>
 Leetcode 3 Longest Substring Without Repeating Character 
 Leetcode 12 Integer To Roman
 
+**5.11** <br>
+Leetcode 771 Jewels and Stones <br>
+Leetcode 7 Reverse Integer <br>
+Leetcode 20 Valid Parentheses <br>
+Leetcode 371 Sum of Two Integers <br>
+Leetcode 21 Merge Two Sorted Lists <br>
+
