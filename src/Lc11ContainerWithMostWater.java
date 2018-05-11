@@ -2,8 +2,8 @@
  * Input: n non-negative integers
  * Output: the MaxArea
  *
- * Time Complexity:
- * Space Complexity:
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
  */
 
 public class Lc11ContainerWithMostWater {
