@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc12_Integer_To_Roman.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc3Longest_SubString_Without_Repeating_Characters.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc771_Jewels_And_Stones.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc20_Valid_Parentheses.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc21_Merge_Two_Sorted_List.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc371_Sum_of_Two_Integers.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc7_Reverse_Integer.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Lc9_Palindrome_Number.java" afterPath="$PROJECT_DIR$/src/Lc9_Palindrome_Number.java" />
+      <change beforePath="$PROJECT_DIR$/src/Lc771_Jewels_And_Stones.java" afterPath="$PROJECT_DIR$/src/Lc771_Jewels_And_Stones.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,21 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lc12_Integer_To_Roman.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lc12_Integer_To_Roman.java">
+      <file leaf-file-name="Lc21_Merge_Two_Sorted_List.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc21_Merge_Two_Sorted_List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="40">
+              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lc771_Jewels_And_Stones.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lc771_Jewels_And_Stones.java">
+      <file leaf-file-name="Lc237_Delete_Node_In_Linked_List.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="40">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,6 +72,10 @@
         <option value="$PROJECT_DIR$/src/Lc3Longest_SubString_Without_Repeating_Characters.java" />
         <option value="$PROJECT_DIR$/src/Lc12_Integer_To_Roman.java" />
         <option value="$PROJECT_DIR$/src/Lc771_Jewels_And_Stones.java" />
+        <option value="$PROJECT_DIR$/src/Lc7_Reverse_Integer.java" />
+        <option value="$PROJECT_DIR$/src/Lc20_Valid_Parentheses.java" />
+        <option value="$PROJECT_DIR$/src/Lc371_Sum_of_Two_Integers.java" />
+        <option value="$PROJECT_DIR$/src/Lc21_Merge_Two_Sorted_List.java" />
       </list>
     </option>
   </component>
@@ -438,8 +444,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc771_Jewels_And_Stones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="100">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc7_Reverse_Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc371_Sum_of_Two_Integers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc20_Valid_Parentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc21_Merge_Two_Sorted_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
