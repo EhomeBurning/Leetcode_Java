@@ -28,10 +28,10 @@ Leetcode 371 Sum of Two Integers <br>
 Leetcode 21 Merge Two Sorted Lists <br>
 
 **5.12** <br>
-Leetcode 237 Delete Node In a Linked List
-Leetcode 535 Encode and Decode TinyURL
-Leetcode 561 Array Partion I
-Leetcode 66 Plus One 
-Leetcode 5 Longest Palindrome SubString
+Leetcode 237 Delete Node In a Linked List <br>
+Leetcode 535 Encode and Decode TinyURL <br>
+Leetcode 561 Array Partion I <br>
+Leetcode 66 Plus One  <br>
+Leetcode 5 Longest Palindrome SubString <br>
 
 
