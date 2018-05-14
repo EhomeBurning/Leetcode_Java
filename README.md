@@ -27,7 +27,8 @@ Leetcode 20 Valid Parentheses <br>
 Leetcode 371 Sum of Two Integers <br>
 Leetcode 21 Merge Two Sorted Lists <br>
 
-**5.12** <br>
+### Week 2 <br>
+**5.14** <br>
 Leetcode 237 Delete Node In a Linked List <br>
 Leetcode 535 Encode and Decode TinyURL <br>
 Leetcode 561 Array Partion I <br>
