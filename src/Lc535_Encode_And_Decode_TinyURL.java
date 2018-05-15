@@ -2,8 +2,6 @@ import java.util.HashMap;
 import java.util.Random;
 /**
  * Tag: Hash Table, Math
- * Time Complexity: O(n)
- * Space Complexity: O(n)
  * ps: HashMap, StringBuilder.setLength(0)
  */
 

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc535_Encode_And_Decode_TinyURL.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc561_Array_Partion_I.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc104_Max_Depth_of_Binary_Tree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc5_Longest_Palindromic_Substring.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc66_Plus_One.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java" afterPath="$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java" />
+      <change beforePath="$PROJECT_DIR$/src/Lc535_Encode_And_Decode_TinyURL.java" afterPath="$PROJECT_DIR$/src/Lc535_Encode_And_Decode_TinyURL.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,16 +18,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lc535_Encode_And_Decode_TinyURL.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lc535_Encode_And_Decode_TinyURL.java">
+      <file leaf-file-name="Lc104_Max_Depth_of_Binary_Tree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc104_Max_Depth_of_Binary_Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1275#1276#0" expanded="true" />
-                <element signature="e#1349#1350#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="40">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,6 +67,9 @@
         <option value="$PROJECT_DIR$/src/Lc561_Array_Partion_I.java" />
         <option value="$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java" />
         <option value="$PROJECT_DIR$/src/Lc535_Encode_And_Decode_TinyURL.java" />
+        <option value="$PROJECT_DIR$/src/Lc66_Plus_One.java" />
+        <option value="$PROJECT_DIR$/src/Lc5_Longest_Palindromic_Substring.java" />
+        <option value="$PROJECT_DIR$/src/Lc104_Max_Depth_of_Binary_Tree.java" />
       </list>
     </option>
   </component>
@@ -499,13 +499,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc535_Encode_And_Decode_TinyURL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="40">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc66_Plus_One.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc5_Longest_Palindromic_Substring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc104_Max_Depth_of_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
