@@ -44,6 +44,8 @@ Leetcode 122 Best Time to Buy and Sell Stock II <br>
 
 **5.17** <br>
 Leetcode 206 Reverse Linked List <br>
+Leetcode 169 Majority Elements <br>
+
 
 
 
