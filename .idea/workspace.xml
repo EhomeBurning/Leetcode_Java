@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc169_Majority_Elements.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc206_Reverse_Linked_List.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,11 +29,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc206_Reverse_Linked_List.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc206_Reverse_Linked_List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc169_Majority_Elements.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc169_Majority_Elements.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -82,6 +105,8 @@
         <option value="$PROJECT_DIR$/src/Lc104_Max_Depth_of_Binary_Tree.java" />
         <option value="$PROJECT_DIR$/src/Lc110_Balanced_Binary_Tree.java" />
         <option value="$PROJECT_DIR$/src/Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java" />
+        <option value="$PROJECT_DIR$/src/Lc206_Reverse_Linked_List.java" />
+        <option value="$PROJECT_DIR$/src/Lc169_Majority_Elements.java" />
       </list>
     </option>
   </component>
@@ -604,8 +629,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc206_Reverse_Linked_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc169_Majority_Elements.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
