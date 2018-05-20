@@ -46,7 +46,10 @@ Leetcode 122 Best Time to Buy and Sell Stock II <br>
 Leetcode 206 Reverse Linked List <br>
 Leetcode 169 Majority Elements <br>
 
-**5.18** <br>
+**5.19** <br>
+Leetcode 38 Count And Say <br>
+Leetcode 191 Number of 1 Bits <br>
+Leetcode 148 Sort List <br>
 
 
 
