@@ -51,5 +51,13 @@ Leetcode 38 Count And Say <br>
 Leetcode 191 Number of 1 Bits <br>
 Leetcode 148 Sort List <br>
 
+**5.20** <br>
+Leetcode 191 Number of 1 Bits <br>
+Leetcode 148 Sort List <br>
+
+### Week 3 <br>
+**5.21** <br>
+Leetcode 141 Linked List Cycle <br>
+
 
 
