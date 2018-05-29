@@ -56,7 +56,7 @@ Leetcode 191 Number of 1 Bits <br>
 Leetcode 148 Sort List <br>
 
 ### Week 3 <br>
-**5.24** <br>
+**5.28** <br>
 Leetcode 141 Linked List Cycle <br>
 
 
