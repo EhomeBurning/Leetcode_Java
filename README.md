@@ -61,4 +61,6 @@ Leetcode 141 Linked List Cycle <br>
 
 **5.29** <br>
 Leetcode 283 Move Zeros <br>
-Leetcode
+
+**5.30** <br>
+Leetcode 121 Best Time To Sell and Buy Stock <br>
