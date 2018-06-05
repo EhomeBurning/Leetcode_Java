@@ -56,11 +56,11 @@ Leetcode 191 Number of 1 Bits <br>
 Leetcode 148 Sort List <br>
 
 ### Week 3 <br>
-**5.28** <br>
+**6.5** <br>
 Leetcode 141 Linked List Cycle <br>
-
-**5.29** <br>
 Leetcode 283 Move Zeros <br>
-
-**5.30** <br>
 Leetcode 121 Best Time To Sell and Buy Stock <br>
+
+**6.6** <br>
+Leetcode 280 Wiggle Sort <br>
+
