@@ -63,4 +63,5 @@ Leetcode 121 Best Time To Sell and Buy Stock <br>
 
 **6.6** <br>
 Leetcode 280 Wiggle Sort <br>
-
+Leetcode 266 Palindrome Permutation <br>
+Leetcode 293 Flip Game <br>
