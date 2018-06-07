@@ -56,12 +56,17 @@ Leetcode 191 Number of 1 Bits <br>
 Leetcode 148 Sort List <br>
 
 ### Week 3 <br>
-**6.5** <br>
+**6.4** <br>
 Leetcode 141 Linked List Cycle <br>
 Leetcode 283 Move Zeros <br>
 Leetcode 121 Best Time To Sell and Buy Stock <br>
 
-**6.6** <br>
+**6.5** <br>
 Leetcode 280 Wiggle Sort <br>
 Leetcode 266 Palindrome Permutation <br>
 Leetcode 293 Flip Game <br>
+
+**6.6** <br>
+Leetcode 243 Shortest Word Distance <br>
+Leetcode 226 Invert Binary Tree <br>
+
