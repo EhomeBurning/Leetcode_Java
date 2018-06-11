@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/Lc74_Search_A_2D_Matrix.java" line="3" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc243_Shortest_Word_Distance.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc260_Single_Number_III.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc266_Invert_Binary_Tree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc293_Flip_Coin.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
