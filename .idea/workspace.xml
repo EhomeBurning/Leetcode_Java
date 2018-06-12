@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc303_Range_Sum_Query_Immutable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc346_Moving_Average_from_Data_Stream.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc359_Logger_Rate_Limiter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc370_Range_Addition.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc760_Find_Anagram_Mappings.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc258_Add_Digits.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc389_Find_the_Difference.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,21 +19,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lc370_Range_Addition.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lc370_Range_Addition.java">
+      <file leaf-file-name="Lc258_Add_Digits.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc258_Add_Digits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lc760_Find_Anagram_Mappings.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lc760_Find_Anagram_Mappings.java">
+      <file leaf-file-name="Lc389_Find_the_Difference.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc389_Find_the_Difference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="300">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -105,6 +105,8 @@
         <option value="$PROJECT_DIR$/src/Lc303_Range_Sum_Query_Immutable.java" />
         <option value="$PROJECT_DIR$/src/Lc370_Range_Addition.java" />
         <option value="$PROJECT_DIR$/src/Lc760_Find_Anagram_Mappings.java" />
+        <option value="$PROJECT_DIR$/src/Lc258_Add_Digits.java" />
+        <option value="$PROJECT_DIR$/src/Lc389_Find_the_Difference.java" />
       </list>
     </option>
   </component>
@@ -132,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +151,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
@@ -309,20 +311,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lc6_ZigZag_Conversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc11ContainerWithMostWater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc13_Roman_To_Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
@@ -675,7 +663,7 @@
     <entry file="file://$PROJECT_DIR$/src/Lc370_Range_Addition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -683,7 +671,26 @@
     <entry file="file://$PROJECT_DIR$/src/Lc760_Find_Anagram_Mappings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc258_Add_Digits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc389_Find_the_Difference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
