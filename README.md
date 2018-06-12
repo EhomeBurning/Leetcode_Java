@@ -80,3 +80,4 @@ Leetcode 303 Range Sum Query - Immutable <br>
 Leetcode 760 Find Anagram Mappings <br>
 
 **6.12** <br>
+Leetcode 258 Add Digits <br>
