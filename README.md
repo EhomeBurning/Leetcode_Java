@@ -100,4 +100,7 @@
 
 **6.13** <br>
  242. Valid Anagram <br>
- 383. Ransom Note
+ 383. Ransom Note <br>
+ 217. Contains Duplicate <br>
+ 219. Contains Duplicate II <br>
+ 
