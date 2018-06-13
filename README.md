@@ -6,8 +6,8 @@
 | 7月  | 继续刷题，7.30刷到300题，润色简历，7.30完成简历                 |                       |
 | 8月  | 继续刷题+复习100题，8.15开始内推，8.20开始练习白板，开始模拟面试，面试技巧训练 |                       |
 | 9月  | 继续模拟面试，面试技巧训练，陆续收到电面+Onsite                   |                       |
-| 10月  | Onsite                                        |                       |
-| 11月  | 收offer                                        |                       |
+| 10月    | Onsite                                        |                       |
+| 11月     | 收offer                                        |                       |
 
 # Leetcode_Java
 *Solutions of LeetCode Algorithm Problems with Java.*
