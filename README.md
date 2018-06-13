@@ -1,4 +1,4 @@
-
+|     | Advance：秋招通过大公司简历筛选并且通过面试的最佳进度，当然多多益善         | Average = 2/3 Advance |
 | --- | --------------------------------------------- | --------------------- |
 | 4月  | 开始刷题，4.30刷到100题，开始写博客，所有代码提交Github            |                       |
 | 5月  | 继续刷题，5.30刷到150题，开始做第一个side project            |                       |
@@ -95,3 +95,7 @@ Leetcode 760 Find Anagram Mappings <br>
 Leetcode 258 Add Digits <br>
 Leetcode 252 Meeting Room <br>
 Leetcode 171 Excel Sheet Column Number <br>
+Leetcode 389 Find The Difference <br>
+Leetcode 100 Same Tree <br>
+
+**6.13** <br>
