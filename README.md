@@ -1,3 +1,14 @@
+|     | Advance：秋招通过大公司简历筛选并且通过面试的最佳进度，当然多多益善         | Average = 2/3 Advance |
+| --- | --------------------------------------------- | --------------------- |
+| 4月  | 开始刷题，4.30刷到100题，开始写博客，所有代码提交Github            |                       |
+| 5月  | 继续刷题，5.30刷到150题，开始做第一个side project            |                       |
+| 6月  | 继续刷题，6.30刷到200题，开始第二个side project             |                       |
+| 7月  | 继续刷题，7.30刷到300题，润色简历，7.30完成简历                 |                       |
+| 8月  | 继续刷题+复习100题，8.15开始内推，8.20开始练习白板，开始模拟面试，面试技巧训练 |                       |
+| 9月  | 继续模拟面试，面试技巧训练，陆续收到电面+Onsite                   |                       |
+| 10月 | Onsite                                        |                       |
+| 11月 | 收offer                                        |                       |
+
 # Leetcode_Java
 *Solutions of LeetCode Algorithm Problems with Java.*
 
@@ -81,3 +92,5 @@ Leetcode 760 Find Anagram Mappings <br>
 
 **6.12** <br>
 Leetcode 258 Add Digits <br>
+Leetcode 252 Meeting Room <br>
+Leetcode 171 Excel Sheet Column Number <br>
