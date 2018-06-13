@@ -15,87 +15,89 @@
 
 ### Week 1 <br>
 **5.8** <br>
-Leetcode 1 Two Sum <br>
-Leetcode 13 Roman to Integer <br>
-Leetcode 344 Reverse String <br>
-Leetcode 292 Nim Game <br>
-Leetcode 136 Single Number<br>
+1. Two Sum <br>
+13. Roman to Integer <br>
+344. Reverse String <br>
+292. Nim Game <br>
+136. Single Number<br>
 
 **5.9** <br>
-Leetcode 14 Longest Number Prefix <br>
-Leetcode 11 Container With The Most Water <br>
+14. Longest Number Prefix <br>
+ 11. Container With The Most Water <br>
 
 **5.10** <br>
-Leetcode 461 Hamming Distance <br>
-Leetcode 6 Zig Zag Conversion <br>
-Leetcode 9 Palindrome Number <br>
-Leetcode 3 Longest Substring Without Repeating Character <br>
-Leetcode 12 Integer To Roman
+ 461. Hamming Distance <br>
+ 6. Zig Zag Conversion <br>
+ 9. Palindrome Number <br>
+ 3. Longest Substring Without Repeating Character <br>
+ 12. Integer To Roman
 
 **5.11** <br>
-Leetcode 771 Jewels and Stones <br>
-Leetcode 7 Reverse Integer <br>
-Leetcode 20 Valid Parentheses <br>
-Leetcode 371 Sum of Two Integers <br>
-Leetcode 21 Merge Two Sorted Lists <br>
+ 771. Jewels and Stones <br>
+ 7. Reverse Integer <br>
+ 20. Valid Parentheses <br>
+ 371. Sum of Two Integers <br>
+ 21. Merge Two Sorted Lists <br>
 
 ### Week 2 <br>
 **5.14** <br>
-Leetcode 237 Delete Node In a Linked List <br>
-Leetcode 535 Encode and Decode TinyURL <br>
-Leetcode 561 Array Partion I <br>
-Leetcode 66 Plus One  <br>
-Leetcode 104 Maximum Depth of Binary Tree <br>
+ 237. Delete Node In a Linked List <br>
+ 535. Encode and Decode TinyURL <br>
+ 561. Array Partion I <br>
+ 66. Plus One  <br>
+ 104. Maximum Depth of Binary Tree <br>
 
 **5.15** Tag: Tree-Based DFS <br> 
-Leetcode 110 Balanced Binary Tree <br>
-Leetcode 140 Maximum Depth of Binary Tree <br>
+ 110. Balanced Binary Tree <br>
+ 140. Maximum Depth of Binary Tree <br>
 
 **5.16** <br>
-Leetcode 122 Best Time to Buy and Sell Stock II <br>
+ 122. Best Time to Buy and Sell Stock II <br>
 
 **5.17** <br>
-Leetcode 206 Reverse Linked List <br>
-Leetcode 169 Majority Elements <br>
+ 206. Reverse Linked List <br>
+ 169. Majority Elements <br>
 
 **5.19** <br>
-Leetcode 38 Count And Say <br>
-Leetcode 191 Number of 1 Bits <br>
-Leetcode 148 Sort List <br>
+ 38. Count And Say <br>
+ 191. Number of 1 Bits <br>
+ 148. Sort List <br>
 
 **5.20** <br>
-Leetcode 191 Number of 1 Bits <br>
-Leetcode 148 Sort List <br>
+ 191. Number of 1 Bits <br>
+ 148. Sort List <br>
 
 ### Week 3 <br>
 **6.4** <br>
-Leetcode 141 Linked List Cycle <br>
-Leetcode 283 Move Zeros <br>
-Leetcode 121 Best Time To Sell and Buy Stock <br>
+ 141. Linked List Cycle <br>
+ 283. Move Zeros <br>
+ 121. Best Time To Sell and Buy Stock <br>
 
 **6.5** <br>
-Leetcode 280 Wiggle Sort <br>
-Leetcode 266 Palindrome Permutation <br>
-Leetcode 293 Flip Game <br>
+ 280. Wiggle Sort <br>
+ 266. Palindrome Permutation <br>
+ 293. Flip Game <br>
 
 **6.6** <br>
-Leetcode 243 Shortest Word Distance <br>
-Leetcode 226 Invert Binary Tree <br>
-Leetcode 260 Single Number III <br>
+ 243. Shortest Word Distance <br>
+ 226. Invert Binary Tree <br>
+ 260. Single Number III <br>
 
 ### Week 4 <br>
 **6.11** <br>
-Leetcode 359 Logger Rate Limiter <br>
-Leetcode 346 Moving Average from Data Stream <br>
-Leetcode 370 Range Addition <br>
-Leetcode 303 Range Sum Query - Immutable <br>
-Leetcode 760 Find Anagram Mappings <br>
+ 359. Logger Rate Limiter <br>
+ 346. Moving Average from Data Stream <br>
+ 370. Range Addition <br>
+ 303. Range Sum Query - Immutable <br>
+ 760. Find Anagram Mappings <br>
 
 **6.12** <br>
-Leetcode 258 Add Digits <br>
-Leetcode 252 Meeting Room <br>
-Leetcode 171 Excel Sheet Column Number <br>
-Leetcode 389 Find The Difference <br>
-Leetcode 100 Same Tree <br>
+ 258. Add Digits <br>
+ 252. Meeting Room <br>
+ 171. Excel Sheet Column Number <br>
+ 389. Find The Difference <br>
+ 100. Same Tree <br>
 
 **6.13** <br>
+ 242. Valid Anagram <br>
+ 383. Ransom Note
