@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc220_Contains_Duplicate_III.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc387_First_Unique_Character_in_a_String.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc256_Paint_House.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc268_Missing_Number.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lc387_First_Unique_Character_in_a_String.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lc387_First_Unique_Character_in_a_String.java">
+      <file leaf-file-name="Lc268_Missing_Number.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc268_Missing_Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,8 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lc344_Reverse_String.java" />
-        <option value="$PROJECT_DIR$/src/Lc292_Nim_Game.java" />
         <option value="$PROJECT_DIR$/src/Lc136_Single_Number.java" />
         <option value="$PROJECT_DIR$/src/Lc11_Container_With_Most_Water.java" />
         <option value="$PROJECT_DIR$/src/Lc11ContainerWithMostWater.java" />
@@ -100,6 +98,8 @@
         <option value="$PROJECT_DIR$/src/Lc217_Contains_Duplicate.java" />
         <option value="$PROJECT_DIR$/src/Lc219_Contains_Duplicate_II.java" />
         <option value="$PROJECT_DIR$/src/Lc387_First_Unique_Character_in_a_String.java" />
+        <option value="$PROJECT_DIR$/src/Lc256_Paint_House.java" />
+        <option value="$PROJECT_DIR$/src/Lc268_Missing_Number.java" />
       </list>
     </option>
   </component>
@@ -127,7 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,9 +143,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,14 +304,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lc11_Container_With_Most_Water.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lc11ContainerWithMostWater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc6_ZigZag_Conversion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -692,6 +684,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc256_Paint_House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc268_Missing_Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
