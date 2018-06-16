@@ -105,5 +105,9 @@
  219. Contains Duplicate II <br>
  220. Contains Duplicate III <br>
  
- **6.14** <br>
+ **6.15** <br>
+ 387. First Unique Character in a String <br>
+ 256. Paint House <br>
+ 268. Missing Number <br>
  
+ **6.16** <br>
