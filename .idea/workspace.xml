@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc256_Paint_House.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc268_Missing_Number.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Lc121_Best_Time_To_Buy_And_Sell_Stock.java" afterPath="$PROJECT_DIR$/src/Lc121_Best_Time_To_Buy_And_Sell_Stock.java" />
+      <change beforePath="$PROJECT_DIR$/src/Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java" afterPath="$PROJECT_DIR$/src/Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java" />
+      <change beforePath="$PROJECT_DIR$/src/Lc268_Missing_Number.java" afterPath="$PROJECT_DIR$/src/Lc268_Missing_Number.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lc268_Missing_Number.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lc268_Missing_Number.java">
+      <file leaf-file-name="Lc121_Best_Time_To_Buy_And_Sell_Stock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc121_Best_Time_To_Buy_And_Sell_Stock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,7 +79,6 @@
         <option value="$PROJECT_DIR$/src/Lc5_Longest_Palindromic_Substring.java" />
         <option value="$PROJECT_DIR$/src/Lc104_Max_Depth_of_Binary_Tree.java" />
         <option value="$PROJECT_DIR$/src/Lc110_Balanced_Binary_Tree.java" />
-        <option value="$PROJECT_DIR$/src/Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java" />
         <option value="$PROJECT_DIR$/src/Lc206_Reverse_Linked_List.java" />
         <option value="$PROJECT_DIR$/src/Lc169_Majority_Elements.java" />
         <option value="$PROJECT_DIR$/src/Lc38_Count_And_Say.java" />
@@ -76,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/Lc148_Sort_List.java" />
         <option value="$PROJECT_DIR$/src/Lc141_Linked_LIst_Cycle.java" />
         <option value="$PROJECT_DIR$/src/Lc283_Move_Zeros.java" />
-        <option value="$PROJECT_DIR$/src/Lc121_Best_Time_To_Buy_And_Sell_Stock.java" />
         <option value="$PROJECT_DIR$/src/Lc74_Search_A_2D_Matrix.java" />
         <option value="$PROJECT_DIR$/src/Lc266_Palindrome_Permutation.java" />
         <option value="$PROJECT_DIR$/src/Lc280_Wiggle_Sort.java" />
@@ -100,6 +109,8 @@
         <option value="$PROJECT_DIR$/src/Lc387_First_Unique_Character_in_a_String.java" />
         <option value="$PROJECT_DIR$/src/Lc256_Paint_House.java" />
         <option value="$PROJECT_DIR$/src/Lc268_Missing_Number.java" />
+        <option value="$PROJECT_DIR$/src/Lc121_Best_Time_To_Buy_And_Sell_Stock.java" />
+        <option value="$PROJECT_DIR$/src/Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java" />
       </list>
     </option>
   </component>
@@ -127,6 +138,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,9 +156,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -428,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc206_Reverse_Linked_List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -486,13 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc121_Best_Time_To_Buy_And_Sell_Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -698,8 +695,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc268_Missing_Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc121_Best_Time_To_Buy_And_Sell_Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc122_Best_Time_To_Buy_And_Sell_Stock_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

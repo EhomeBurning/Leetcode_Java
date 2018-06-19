@@ -5,7 +5,7 @@
 
 public class Lc122_Best_Time_To_Buy_And_Sell_Stock_II {
     public int maxProfit(int[] prices) {
-        if (prices.length < 2 || prices == null) {
+        if (prices.length < 2) {
             return 0;
         }
 
