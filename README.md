@@ -110,7 +110,10 @@
  256. Paint House <br>
  268. Missing Number <br>
  
- **6.19** <br>
+ ### Week 5 <br>
+ 
+ **6.20** <br>
+ full stack class 1 <br>
  202. Happy Number <br>
  
  
