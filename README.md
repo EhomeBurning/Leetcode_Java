@@ -113,7 +113,10 @@
  ### Week 5 <br>
  
  **6.20** <br>
- full stack class 1 <br>
+ full stack week 1 class 1 <br>
  202. Happy Number <br>
+ 257. Binary Tree Paths <br>
+ 70. Climbing Stairs <br>
+ 27. Remove Element <br>
  
  
