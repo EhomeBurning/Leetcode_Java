@@ -123,4 +123,9 @@
  **6.24** <br>
  26. Remove Duplicates from Sorted Array <br>
  80. Remove Duplicates from Sorted Array II <br>
+ 277. Find the Celebrity <br>
+ 41. First Missing Positive <br>
+ 189. Rotate Array <br>
  
+
+
