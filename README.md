@@ -120,5 +120,7 @@
  27. Remove Element <br>
  270. Closest Binary Search Tree Value <br>
  
- 
+ **6.24** <br>
+ 26. Remove Duplicates from Sorted Array <br>
+ 80. Remove Duplicates from Sorted Array II <br>
  
