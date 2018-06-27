@@ -1,14 +1,14 @@
 /**
- * Tag: Array
- * Time Complexity: O(n)
- * Space Complexity: O(1)
+ * Tag: Array - Sort
+ * Time: O(n)
+ * Space: O(1)
  */
 
-
-public class Lc283_Move_Zeros {
+class Lc283_Move_Zeros {
     public void moveZeroes(int[] nums) {
         if (nums == null || nums.length == 0) return;
 
+        // count zeros
         int numNonZero = 0;
         for (int num : nums) {
             if (num != 0) {
@@ -17,6 +17,7 @@ public class Lc283_Move_Zeros {
             }
         }
 
+        // Make sure the back is 0
         while (numNonZero < nums.length) {
             nums[numNonZero] = 0;
             numNonZero++;

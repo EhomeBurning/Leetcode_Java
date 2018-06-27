@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc26_Remove_Duplicates_from_Sorted_Array.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc270_Closest_Binary_Search_Tree_Value.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc80_Remove_Duplicates_from_Sorted_Array_II.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc189_Rotate_Array.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc277_Find_the_Celebrity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc75_Sort_Colors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc88_Merge_Sorted_Array.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Lc283_Move_Zeros.java" afterPath="$PROJECT_DIR$/src/Lc283_Move_Zeros.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,21 +22,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lc26_Remove_Duplicates_from_Sorted_Array.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lc26_Remove_Duplicates_from_Sorted_Array.java">
+      <file leaf-file-name="Lc88_Merge_Sorted_Array.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc88_Merge_Sorted_Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="140">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lc80_Remove_Duplicates_from_Sorted_Array_II.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lc80_Remove_Duplicates_from_Sorted_Array_II.java">
+      <file leaf-file-name="Lc75_Sort_Colors.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc75_Sort_Colors.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
               <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc283_Move_Zeros.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc283_Move_Zeros.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -60,10 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lc771_Jewels_And_Stones.java" />
-        <option value="$PROJECT_DIR$/src/Lc7_Reverse_Integer.java" />
-        <option value="$PROJECT_DIR$/src/Lc20_Valid_Parentheses.java" />
-        <option value="$PROJECT_DIR$/src/Lc371_Sum_of_Two_Integers.java" />
         <option value="$PROJECT_DIR$/src/Lc21_Merge_Two_Sorted_List.java" />
         <option value="$PROJECT_DIR$/src/Lc561_Array_Partion_I.java" />
         <option value="$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java" />
@@ -78,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/Lc191_Num_of_1_Bits.java" />
         <option value="$PROJECT_DIR$/src/Lc148_Sort_List.java" />
         <option value="$PROJECT_DIR$/src/Lc141_Linked_LIst_Cycle.java" />
-        <option value="$PROJECT_DIR$/src/Lc283_Move_Zeros.java" />
         <option value="$PROJECT_DIR$/src/Lc74_Search_A_2D_Matrix.java" />
         <option value="$PROJECT_DIR$/src/Lc266_Palindrome_Permutation.java" />
         <option value="$PROJECT_DIR$/src/Lc280_Wiggle_Sort.java" />
@@ -111,6 +118,11 @@
         <option value="$PROJECT_DIR$/src/Lc270_Closest_Binary_Search_Tree_Value.java" />
         <option value="$PROJECT_DIR$/src/Lc26_Remove_Duplicates_from_Sorted_Array.java" />
         <option value="$PROJECT_DIR$/src/Lc80_Remove_Duplicates_from_Sorted_Array_II.java" />
+        <option value="$PROJECT_DIR$/src/Lc277_Find_the_Celebrity.java" />
+        <option value="$PROJECT_DIR$/src/Lc189_Rotate_Array.java" />
+        <option value="$PROJECT_DIR$/src/Lc88_Merge_Sorted_Array.java" />
+        <option value="$PROJECT_DIR$/src/Lc75_Sort_Colors.java" />
+        <option value="$PROJECT_DIR$/src/Lc283_Move_Zeros.java" />
       </list>
     </option>
   </component>
@@ -139,9 +151,9 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,34 +327,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lc20_Valid_Parentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc21_Merge_Two_Sorted_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc561_Array_Partion_I.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc535_Encode_And_Decode_TinyURL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -424,13 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc283_Move_Zeros.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -678,6 +655,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc277_Find_the_Celebrity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc189_Rotate_Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc88_Merge_Sorted_Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc75_Sort_Colors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc283_Move_Zeros.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding />
         </state>
       </provider>
