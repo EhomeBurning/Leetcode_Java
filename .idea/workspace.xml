@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc189_Rotate_Array.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc277_Find_the_Celebrity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc75_Sort_Colors.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc88_Merge_Sorted_Array.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/LC299_Bulls_And_Cows.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc134_Gas_Station.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Lc283_Move_Zeros.java" afterPath="$PROJECT_DIR$/src/Lc283_Move_Zeros.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,31 +19,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lc88_Merge_Sorted_Array.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lc88_Merge_Sorted_Array.java">
+      <file leaf-file-name="LC299_Bulls_And_Cows.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LC299_Bulls_And_Cows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lc75_Sort_Colors.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lc75_Sort_Colors.java">
+      <file leaf-file-name="Lc134_Gas_Station.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc134_Gas_Station.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lc283_Move_Zeros.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lc283_Move_Zeros.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="200">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,8 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lc21_Merge_Two_Sorted_List.java" />
-        <option value="$PROJECT_DIR$/src/Lc561_Array_Partion_I.java" />
         <option value="$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java" />
         <option value="$PROJECT_DIR$/src/Lc535_Encode_And_Decode_TinyURL.java" />
         <option value="$PROJECT_DIR$/src/Lc66_Plus_One.java" />
@@ -123,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/Lc88_Merge_Sorted_Array.java" />
         <option value="$PROJECT_DIR$/src/Lc75_Sort_Colors.java" />
         <option value="$PROJECT_DIR$/src/Lc283_Move_Zeros.java" />
+        <option value="$PROJECT_DIR$/src/LC299_Bulls_And_Cows.java" />
+        <option value="$PROJECT_DIR$/src/Lc134_Gas_Station.java" />
       </list>
     </option>
   </component>
@@ -327,20 +314,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lc535_Encode_And_Decode_TinyURL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc66_Plus_One.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc5_Longest_Palindromic_Substring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -695,6 +668,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LC299_Bulls_And_Cows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc134_Gas_Station.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
