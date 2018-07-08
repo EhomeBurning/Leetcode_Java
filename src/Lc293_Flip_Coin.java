@@ -1,3 +1,11 @@
+import java.util.ArrayList;
+/**
+ * Tag: String
+ * Time: O(n)
+ * Space: O(n)
+ * Note: 思路比较简单，就是只要遇到++，就将其变为--
+ */
+
 import java.util.List;
 
 public class Lc293_Flip_Coin {

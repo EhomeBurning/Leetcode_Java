@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc14_Longest_Common_Prefix.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc151_Reverse_Words_in_a_String.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc186_Reverse_Words_in_a_String_II.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc28_Implement_strStr.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc345_Reverse_Vowels_of_a_String.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc58_Length_of_Last_Word.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc125_Valid_Palindrome.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc205_Isomorphic_Strings.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc290_Word_Pattern.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Lc293_Flip_Coin.java" afterPath="$PROJECT_DIR$/src/Lc293_Flip_Coin.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,32 +21,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lc151_Reverse_Words_in_a_String.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lc151_Reverse_Words_in_a_String.java">
+      <file leaf-file-name="Lc205_Isomorphic_Strings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc205_Isomorphic_Strings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc293_Flip_Coin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc293_Flip_Coin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc290_Word_Pattern.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc290_Word_Pattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc242_Valid_Anagram.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc242_Valid_Anagram.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lc186_Reverse_Words_in_a_String_II.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lc186_Reverse_Words_in_a_String_II.java">
+      <file leaf-file-name="Lc125_Valid_Palindrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc125_Valid_Palindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lc345_Reverse_Vowels_of_a_String.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lc345_Reverse_Vowels_of_a_String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-182">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding>
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,16 +94,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lc206_Reverse_Linked_List.java" />
-        <option value="$PROJECT_DIR$/src/Lc169_Majority_Elements.java" />
-        <option value="$PROJECT_DIR$/src/Lc38_Count_And_Say.java" />
         <option value="$PROJECT_DIR$/src/Lc191_Num_of_1_Bits.java" />
         <option value="$PROJECT_DIR$/src/Lc148_Sort_List.java" />
         <option value="$PROJECT_DIR$/src/Lc141_Linked_LIst_Cycle.java" />
         <option value="$PROJECT_DIR$/src/Lc74_Search_A_2D_Matrix.java" />
         <option value="$PROJECT_DIR$/src/Lc266_Palindrome_Permutation.java" />
         <option value="$PROJECT_DIR$/src/Lc280_Wiggle_Sort.java" />
-        <option value="$PROJECT_DIR$/src/Lc293_Flip_Coin.java" />
         <option value="$PROJECT_DIR$/src/Lc243_Shortest_Word_Distance.java" />
         <option value="$PROJECT_DIR$/src/Lc266_Invert_Binary_Tree.java" />
         <option value="$PROJECT_DIR$/src/Lc359_Logger_Rate_Limiter.java" />
@@ -124,6 +141,10 @@
         <option value="$PROJECT_DIR$/src/Lc151_Reverse_Words_in_a_String.java" />
         <option value="$PROJECT_DIR$/src/Lc186_Reverse_Words_in_a_String_II.java" />
         <option value="$PROJECT_DIR$/src/Lc345_Reverse_Vowels_of_a_String.java" />
+        <option value="$PROJECT_DIR$/src/Lc293_Flip_Coin.java" />
+        <option value="$PROJECT_DIR$/src/Lc205_Isomorphic_Strings.java" />
+        <option value="$PROJECT_DIR$/src/Lc290_Word_Pattern.java" />
+        <option value="$PROJECT_DIR$/src/Lc125_Valid_Palindrome.java" />
       </list>
     </option>
   </component>
@@ -328,27 +349,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lc38_Count_And_Say.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc191_Num_of_1_Bits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc148_Sort_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc141_Linked_LIst_Cycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -375,13 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc293_Flip_Coin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -473,13 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc242_Valid_Anagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -710,6 +696,49 @@
         <state relative-caret-position="-127">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc205_Isomorphic_Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc293_Flip_Coin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc290_Word_Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc242_Valid_Anagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc125_Valid_Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
