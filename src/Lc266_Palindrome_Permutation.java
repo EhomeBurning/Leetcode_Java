@@ -1,13 +1,12 @@
-import java.util.HashMap;
+public class Lc266_Palindrome_Permutation {
 
 /**
- * Tag: Hash Table
- * Time Complexity: O(n)
- * Space Complexity: O(n)
+ * Tag: String-Palindrome, Hash Table
+ * Time: O(n)
+ * Space: O(n)
+ * Note: map.getOrDefault(int, int)
  */
 
-
-public class Lc266_Palindrome_Permutation {
     public boolean canPermutePalindrome(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
         // for (int i = 0; i < s.length(); i++) {

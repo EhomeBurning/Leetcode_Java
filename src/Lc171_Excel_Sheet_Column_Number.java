@@ -1,9 +1,10 @@
 public class Lc171_Excel_Sheet_Column_Number {
-/**
- * Tag: Math
- * Time: O(n)
- * Space: O(1)
- */
+    /**
+     * Tag: String, Math
+     * Time: O(n)
+     * Space: O(1)
+     * Note: res * 26一开始没有想到
+     */
 
     public int titleToNumber(String s) {
         if (s == null || s.length() == 0) return -1;
