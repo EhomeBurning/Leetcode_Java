@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc168_Excel_Sheet_Column_Title.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc273_Integer_to_English_Words.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc49_Group_Anagrams.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc87_Scramble_String.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Lc171_Excel_Sheet_Column_Number.java" afterPath="$PROJECT_DIR$/src/Lc171_Excel_Sheet_Column_Number.java" />
-      <change beforePath="$PROJECT_DIR$/src/Lc266_Invert_Binary_Tree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Lc266_Palindrome_Permutation.java" afterPath="$PROJECT_DIR$/src/Lc266_Palindrome_Permutation.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lc273_Integer_to_English_Words.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lc273_Integer_to_English_Words.java">
+      <file leaf-file-name="Lc87_Scramble_String.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc87_Scramble_String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lc74_Search_A_2D_Matrix.java" />
         <option value="$PROJECT_DIR$/src/Lc280_Wiggle_Sort.java" />
         <option value="$PROJECT_DIR$/src/Lc243_Shortest_Word_Distance.java" />
         <option value="$PROJECT_DIR$/src/Lc266_Invert_Binary_Tree.java" />
@@ -104,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/Lc266_Palindrome_Permutation.java" />
         <option value="$PROJECT_DIR$/src/Lc171_Excel_Sheet_Column_Number.java" />
         <option value="$PROJECT_DIR$/src/Lc273_Integer_to_English_Words.java" />
+        <option value="$PROJECT_DIR$/src/Lc87_Scramble_String.java" />
       </list>
     </option>
   </component>
@@ -308,13 +303,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lc359_Logger_Rate_Limiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc346_Moving_Average_from_Data_Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -704,6 +692,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc87_Scramble_String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
