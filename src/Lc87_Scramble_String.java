@@ -2,8 +2,8 @@ public class Lc87_Scramble_String {
 
 /**
  * Tag: String, Recursion
- * Time:
- * Space:
+ * Time: 不确定
+ * Space: O(n)
  * Solution: 先判断字母组成是否相同，然后再判断substring是否相同
  三维的dp是最优解，但是比较难，所以先写了recursion的
  * Note: substring(0,num) 是0~num - 1的string， 而substring(num) 则是num~len的string， 也就是说第一个index没问题，最后一个要减一

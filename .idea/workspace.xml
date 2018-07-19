@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc87_Scramble_String.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc161_One_Edit_Distance.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Lc87_Scramble_String.java" afterPath="$PROJECT_DIR$/src/Lc87_Scramble_String.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +19,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lc87_Scramble_String.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lc87_Scramble_String.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lc87_Scramble_String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="100">
+              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc6_ZigZag_Conversion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc6_ZigZag_Conversion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc161_One_Edit_Distance.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc161_One_Edit_Distance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lc280_Wiggle_Sort.java" />
         <option value="$PROJECT_DIR$/src/Lc243_Shortest_Word_Distance.java" />
         <option value="$PROJECT_DIR$/src/Lc266_Invert_Binary_Tree.java" />
         <option value="$PROJECT_DIR$/src/Lc359_Logger_Rate_Limiter.java" />
@@ -99,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/Lc171_Excel_Sheet_Column_Number.java" />
         <option value="$PROJECT_DIR$/src/Lc273_Integer_to_English_Words.java" />
         <option value="$PROJECT_DIR$/src/Lc87_Scramble_String.java" />
+        <option value="$PROJECT_DIR$/src/Lc161_One_Edit_Distance.java" />
       </list>
     </option>
   </component>
@@ -126,10 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +163,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +287,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="58" width="1377" height="837" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -303,20 +323,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lc346_Moving_Average_from_Data_Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc303_Range_Sum_Query_Immutable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc370_Range_Addition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -640,14 +646,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc266_Invert_Binary_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc266_Invert_Binary_Tree.java" />
     <entry file="file://$PROJECT_DIR$/src/Lc168_Excel_Sheet_Column_Title.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -698,8 +697,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc87_Scramble_String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="100">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc6_ZigZag_Conversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc161_One_Edit_Distance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
