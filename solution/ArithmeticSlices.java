@@ -1,13 +1,6 @@
 package leetcode;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : ArithmeticSlices
- * Creator : Edward
- * Date : Nov, 2017
- * Description : 413. Arithmetic Slices
- */
+
 public class ArithmeticSlices {
     /**
      * Example:

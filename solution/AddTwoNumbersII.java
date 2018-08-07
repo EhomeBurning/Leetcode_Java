@@ -3,14 +3,7 @@ package leetcode;
 import java.util.List;
 import java.util.Stack;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : AddTwoNumbersII
- * Creator : Edward
- * Date : Sep, 2017
- * Description : 445. Add Two Numbers II
- */
+
 public class AddTwoNumbersII {
     /**
 

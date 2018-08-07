@@ -2,14 +2,7 @@ package leetcode;
 
 import java.util.Stack;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : BasicCalculator
- * Creator : Edward
- * Date : Sep, 2017
- * Description : 224. Basic Calculator
- */
+
 public class BasicCalculator {
     /**
 

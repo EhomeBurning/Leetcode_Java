@@ -1,13 +1,5 @@
 package leetcode;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : AddandSearchWord
- * Creator : Edward
- * Date : Sep, 2017
- * Description : TODO
- */
 class TrieNode {
 
     TrieNode[] children;

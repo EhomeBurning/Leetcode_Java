@@ -1,8 +1,6 @@
 package leetcode;
 
-/**
- * Created by Edward on 25/07/2017.
- */
+
 public class AddDigits {
     /**
      * 258. Add Digits

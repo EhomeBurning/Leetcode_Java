@@ -1,13 +1,6 @@
 package leetcode;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : AdditiveNumber
- * Creator : Edward
- * Date : Jan, 2018
- * Description : 306. Additive Number
- */
+
 public class AdditiveNumber {
     /**
      * Additive number is a string whose digits can form additive sequence.

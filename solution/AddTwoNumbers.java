@@ -1,13 +1,6 @@
 package leetcode;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : AddTwoNumbers
- * Creator : Edward
- * Date : Sep, 2017
- * Description : 2. Add Two Numbers
- */
+
 public class AddTwoNumbers {
     /**
 

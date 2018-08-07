@@ -5,14 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : AverageofLevelsinBinaryTree
- * Creator : Edward
- * Date : Aug, 2017
- * Description : 637. Average of Levels in Binary Tree
- */
+
 public class AverageofLevelsinBinaryTree {
 
     /**

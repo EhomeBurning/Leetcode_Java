@@ -1,13 +1,6 @@
 package leetcode;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : AddStrings
- * Creator : Edward
- * Date : Nov, 2017
- * Description : 415. Add Strings
- */
+
 public class AddStrings {
     /**
      * Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.

@@ -2,14 +2,7 @@ package leetcode;
 
 import java.util.Arrays;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : AssignCookies
- * Creator : Edward
- * Date : Nov, 2017
- * Description : 455. Assign Cookies
- */
+
 public class AssignCookies {
     /**
      * Example 1:

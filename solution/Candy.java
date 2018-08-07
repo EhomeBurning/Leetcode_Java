@@ -2,14 +2,7 @@ package leetcode;
 
 import java.util.Arrays;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : Candy
- * Creator : Edward
- * Date : Dec, 2017
- * Description : 135. Candy
- */
+
 public class Candy {
     /**
      * There are N children standing in a line. Each child is assigned a rating value.

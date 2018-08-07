@@ -1,13 +1,6 @@
 package leetcode;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : CanPlaceFlowers
- * Creator : Edward
- * Date : Aug, 2017
- * Description : TODO
- */
+
 public class CanPlaceFlowers {
     /**
      * 605. Can Place Flowers

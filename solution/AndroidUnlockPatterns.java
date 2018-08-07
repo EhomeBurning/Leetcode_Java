@@ -1,13 +1,5 @@
 package leetcode;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : AndroidUnlockPatterns
- * Creator : Edward
- * Date : Oct, 2017
- * Description : 351. Android Unlock Patterns
- */
 public class AndroidUnlockPatterns {
     /**
      * time : 不知道

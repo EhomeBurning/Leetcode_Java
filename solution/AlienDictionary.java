@@ -2,14 +2,6 @@ package leetcode;
 
 import java.util.*;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : AlienDictionary
- * Creator : Edward
- * Date : Dec, 2017
- * Description : 269. Alien Dictionary
- */
 public class AlienDictionary {
     /**
      * There is a new alien language which uses the latin alphabet.

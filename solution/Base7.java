@@ -1,13 +1,5 @@
 package leetcode;
 
-/**
- * Project Name : Leetcode
- * Package Name : leetcode
- * File Name : Base7
- * Creator : Edward
- * Date : Nov, 2017
- * Description : 504. Base 7
- */
 public class Base7 {
     /**
      * Given an integer, return its base 7 string representation.
