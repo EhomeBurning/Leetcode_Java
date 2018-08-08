@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc165_Compare_Version_Numbers.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/solution/AAA.java" afterPath="$PROJECT_DIR$/solution/AAA.java" />
-      <change beforePath="$PROJECT_DIR$/solution/AddBinary.java" afterPath="$PROJECT_DIR$/solution/AddBinary.java" />
-      <change beforePath="$PROJECT_DIR$/solution/AddDigits.java" afterPath="$PROJECT_DIR$/solution/AddDigits.java" />
-      <change beforePath="$PROJECT_DIR$/solution/AddStrings.java" afterPath="$PROJECT_DIR$/solution/AddStrings.java" />
-      <change beforePath="$PROJECT_DIR$/solution/AddTwoNumbers.java" afterPath="$PROJECT_DIR$/solution/AddTwoNumbers.java" />
-      <change beforePath="$PROJECT_DIR$/solution/AddTwoNumbersII.java" afterPath="$PROJECT_DIR$/solution/AddTwoNumbersII.java" />
-      <change beforePath="$PROJECT_DIR$/solution/AddandSearchWord.java" afterPath="$PROJECT_DIR$/solution/AddandSearchWord.java" />
-      <change beforePath="$PROJECT_DIR$/solution/AdditiveNumber.java" afterPath="$PROJECT_DIR$/solution/AdditiveNumber.java" />
-      <change beforePath="$PROJECT_DIR$/solution/AlienDictionary.java" afterPath="$PROJECT_DIR$/solution/AlienDictionary.java" />
-      <change beforePath="$PROJECT_DIR$/solution/AndroidUnlockPatterns.java" afterPath="$PROJECT_DIR$/solution/AndroidUnlockPatterns.java" />
-      <change beforePath="$PROJECT_DIR$/solution/ArithmeticSlices.java" afterPath="$PROJECT_DIR$/solution/ArithmeticSlices.java" />
-      <change beforePath="$PROJECT_DIR$/solution/AssignCookies.java" afterPath="$PROJECT_DIR$/solution/AssignCookies.java" />
-      <change beforePath="$PROJECT_DIR$/solution/AverageofLevelsinBinaryTree.java" afterPath="$PROJECT_DIR$/solution/AverageofLevelsinBinaryTree.java" />
-      <change beforePath="$PROJECT_DIR$/solution/BalancedBinaryTree.java" afterPath="$PROJECT_DIR$/solution/BalancedBinaryTree.java" />
-      <change beforePath="$PROJECT_DIR$/solution/Base7.java" afterPath="$PROJECT_DIR$/solution/Base7.java" />
-      <change beforePath="$PROJECT_DIR$/solution/BasicCalculator.java" afterPath="$PROJECT_DIR$/solution/BasicCalculator.java" />
-      <change beforePath="$PROJECT_DIR$/solution/CanPlaceFlowers.java" afterPath="$PROJECT_DIR$/solution/CanPlaceFlowers.java" />
-      <change beforePath="$PROJECT_DIR$/solution/Candy.java" afterPath="$PROJECT_DIR$/solution/Candy.java" />
-      <change beforePath="$PROJECT_DIR$/solution/Combinations.java" afterPath="$PROJECT_DIR$/solution/Combinations.java" />
-      <change beforePath="$PROJECT_DIR$/src/Lc7_Reverse_Integer.java" afterPath="$PROJECT_DIR$/src/Lc7_Reverse_Integer.java" />
+      <change beforePath="$PROJECT_DIR$/src/Lc66_Plus_One.java" afterPath="$PROJECT_DIR$/src/Lc66_Plus_One.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +30,8 @@
       <file leaf-file-name="Lc66_Plus_One.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lc66_Plus_One.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="60">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lc257_Binary_Tree_Paths.java" />
         <option value="$PROJECT_DIR$/src/Lc70_Climbing_Stairs.java" />
         <option value="$PROJECT_DIR$/src/Lc27_Remove_Element.java" />
         <option value="$PROJECT_DIR$/src/Lc270_Closest_Binary_Search_Tree_Value.java" />
@@ -129,6 +107,7 @@
         <option value="$PROJECT_DIR$/solution/CanPlaceFlowers.java" />
         <option value="$PROJECT_DIR$/src/Lc7_Reverse_Integer.java" />
         <option value="$PROJECT_DIR$/src/Lc165_Compare_Version_Numbers.java" />
+        <option value="$PROJECT_DIR$/src/Lc66_Plus_One.java" />
       </list>
     </option>
   </component>
@@ -711,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc66_Plus_One.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="60">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
