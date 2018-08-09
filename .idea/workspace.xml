@@ -4,12 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/Lc74_Search_A_2D_Matrix.java" line="3" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc278_First_Bad_Version.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc33_Search_in_Rotated_Sorted_Array.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc35_Search_Insert_Position.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +38,7 @@
       <file leaf-file-name="Lc33_Search_in_Rotated_Sorted_Array.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lc33_Search_in_Rotated_Sorted_Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="174">
               <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -703,7 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc33_Search_in_Rotated_Sorted_Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="174">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
