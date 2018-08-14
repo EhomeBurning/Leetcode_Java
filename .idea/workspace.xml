@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc69_Sqrtx.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc852_Peak_Index_in_a_Mountain_Array.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc153_Find_Minimum_in_Rotated_Sorted_Array.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc154_Find_Minimum_in_Rotated_Sorted_Array_II.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,11 +19,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lc852_Peak_Index_in_a_Mountain_Array.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lc852_Peak_Index_in_a_Mountain_Array.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lc852_Peak_Index_in_a_Mountain_Array.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc153_Find_Minimum_in_Rotated_Sorted_Array.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc153_Find_Minimum_in_Rotated_Sorted_Array.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc154_Find_Minimum_in_Rotated_Sorted_Array_II.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc154_Find_Minimum_in_Rotated_Sorted_Array_II.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lc277_Find_the_Celebrity.java" />
-        <option value="$PROJECT_DIR$/src/Lc189_Rotate_Array.java" />
         <option value="$PROJECT_DIR$/src/Lc88_Merge_Sorted_Array.java" />
         <option value="$PROJECT_DIR$/src/Lc75_Sort_Colors.java" />
         <option value="$PROJECT_DIR$/src/Lc283_Move_Zeros.java" />
@@ -100,6 +118,8 @@
         <option value="$PROJECT_DIR$/src/Lc33_Search_in_Rotated_Sorted_Array.java" />
         <option value="$PROJECT_DIR$/src/Lc69_Sqrtx.java" />
         <option value="$PROJECT_DIR$/src/Lc852_Peak_Index_in_a_Mountain_Array.java" />
+        <option value="$PROJECT_DIR$/src/Lc153_Find_Minimum_in_Rotated_Sorted_Array.java" />
+        <option value="$PROJECT_DIR$/src/Lc154_Find_Minimum_in_Rotated_Sorted_Array_II.java" />
       </list>
     </option>
   </component>
@@ -304,21 +324,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lc383_Ransom_Note.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc151_Reverse_Words_in_a_String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc186_Reverse_Words_in_a_String_II.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -682,6 +687,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc153_Find_Minimum_in_Rotated_Sorted_Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc154_Find_Minimum_in_Rotated_Sorted_Array_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
