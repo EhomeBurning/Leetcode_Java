@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc876_Middle_of_the_Linked_List.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java" afterPath="$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lc876_Middle_of_the_Linked_List.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lc876_Middle_of_the_Linked_List.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lc876_Middle_of_the_Linked_List.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc237_Delete_Node_In_Linked_List.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -58,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lc75_Sort_Colors.java" />
         <option value="$PROJECT_DIR$/src/Lc283_Move_Zeros.java" />
         <option value="$PROJECT_DIR$/src/LC299_Bulls_And_Cows.java" />
         <option value="$PROJECT_DIR$/src/Lc134_Gas_Station.java" />
@@ -109,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/Lc153_Find_Minimum_in_Rotated_Sorted_Array.java" />
         <option value="$PROJECT_DIR$/src/Lc154_Find_Minimum_in_Rotated_Sorted_Array_II.java" />
         <option value="$PROJECT_DIR$/src/Lc876_Middle_of_the_Linked_List.java" />
+        <option value="$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java" />
       </list>
     </option>
   </component>
@@ -147,6 +156,12 @@
               <item name="Leetcode_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lc237_Delete_Node_In_Linked_List.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -313,14 +328,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lc345_Reverse_Vowels_of_a_String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc205_Isomorphic_Strings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -692,6 +699,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
