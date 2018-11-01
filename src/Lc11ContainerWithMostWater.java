@@ -1,3 +1,5 @@
+// solution: 双指针，左右两边哪个小就向中间移动一个，计算乘积，更新最大值
+
 /**
  * Input: n non-negative integers
  * Output: the MaxArea
