@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28749fd7-8dca-4e9d-8353-3f253b212d35" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Lc11ContainerWithMostWater.java" afterPath="$PROJECT_DIR$/src/Lc11ContainerWithMostWater.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc347_Top_K_Freq_Elements.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc560_SubArray_Sum_equals_to_k.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lc658_Find_K_Closest_Elements.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,63 +20,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lc154_Find_Minimum_in_Rotated_Sorted_Array_II.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lc154_Find_Minimum_in_Rotated_Sorted_Array_II.java">
+      <file leaf-file-name="Lc560_SubArray_Sum_equals_to_k.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc560_SubArray_Sum_equals_to_k.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lc876_Middle_of_the_Linked_List.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lc876_Middle_of_the_Linked_List.java">
+      <file leaf-file-name="Lc658_Find_K_Closest_Elements.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lc658_Find_K_Closest_Elements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+            <state relative-caret-position="620">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lc237_Delete_Node_In_Linked_List.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java">
+      <file leaf-file-name="Lc347_Top_K_Freq_Elements.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lc347_Top_K_Freq_Elements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lc251_Flatten_2D_Vector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lc251_Flatten_2D_Vector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#908#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lc42_Trapping_Rain_Water.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lc42_Trapping_Rain_Water.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lc11ContainerWithMostWater.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lc11ContainerWithMostWater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="100">
+              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -99,9 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lc134_Gas_Station.java" />
-        <option value="$PROJECT_DIR$/src/Lc28_Implement_strStr.java" />
-        <option value="$PROJECT_DIR$/src/Lc14_Longest_Common_Prefix.java" />
         <option value="$PROJECT_DIR$/src/Lc58_Length_of_Last_Word.java" />
         <option value="$PROJECT_DIR$/src/Lc151_Reverse_Words_in_a_String.java" />
         <option value="$PROJECT_DIR$/src/Lc186_Reverse_Words_in_a_String_II.java" />
@@ -150,12 +118,15 @@
         <option value="$PROJECT_DIR$/src/Lc237_Delete_Node_In_Linked_List.java" />
         <option value="$PROJECT_DIR$/src/Lc42_Trapping_Rain_Water.java" />
         <option value="$PROJECT_DIR$/src/Lc11ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/src/Lc560_SubArray_Sum_equals_to_k.java" />
+        <option value="$PROJECT_DIR$/src/Lc658_Find_K_Closest_Elements.java" />
+        <option value="$PROJECT_DIR$/src/Lc347_Top_K_Freq_Elements.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="600" />
-    <option name="y" value="85" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="67" />
+    <option name="y" value="63" />
     <option name="width" value="1373" />
     <option name="height" value="837" />
   </component>
@@ -177,6 +148,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,10 +174,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,7 +293,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="600" y="85" width="1373" height="837" extended-state="1" />
+    <frame x="67" y="63" width="1373" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -360,33 +331,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lc242_Valid_Anagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc125_Valid_Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="e#1105#1106#0" expanded="false" />
-            <element signature="e#1175#1176#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc49_Group_Anagrams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lc266_Invert_Binary_Tree.java" />
     <entry file="file://$PROJECT_DIR$/src/Lc168_Excel_Sheet_Column_Title.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -728,18 +672,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc42_Trapping_Rain_Water.java">
+    <entry file="file://$PROJECT_DIR$/src/Lc11ContainerWithMostWater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="320">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lc11ContainerWithMostWater.java">
+    <entry file="file://$PROJECT_DIR$/src/Lc42_Trapping_Rain_Water.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="540">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc560_SubArray_Sum_equals_to_k.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc658_Find_K_Closest_Elements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lc347_Top_K_Freq_Elements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
         </state>
       </provider>
