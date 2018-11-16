@@ -7,7 +7,9 @@ public class Lc273_Integer_to_English_Words {
  * Solution: 每三位一个循环
  */
 
-    private final String[] LESS_THAN_20 = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",                                                 "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen",                                                    "Eighteen", "Nineteen"};
+    private final String[] LESS_THAN_20 = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
+                                             "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen",
+                                            "Eighteen", "Nineteen"};
     private final String[] TENS = {"", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
     private final String[] THOUSANDS = {"", "Thousand", "Million", "Billion"};
 
@@ -18,6 +20,13 @@ public class Lc273_Integer_to_English_Words {
 
         String res = "";
         int count = 0;
+        boolean isNegative = false;
+
+        if (num < 0) {
+            isNegative = true;
+            num = -num;
+            res += "Negative";
+        }
 
         while (num > 0) {
             if (num % 1000 != 0) {
