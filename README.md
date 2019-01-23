@@ -38,6 +38,13 @@ eg: 2^-4 = 1 / 2^4; -> n = -n, x = 1 / x; <br><br>
 *Space*: O(logx) // how many call_Stack <br>
 
 
+## 153. Find Minimum in Rotated Sorted Array
+*Solution*: <br>
+Regular Binary Search, assume the first num is the minNum, and set it as a target. Narrow the searching range to two nums. Compare these two with the minNum. 
+<br> <br>
+*Time*: O(logn) <br>
+*Space*: O(1) <br>
+
 
 ## 412. Fizz Buzz<br>
 one more counter solution. ++ before if condition ; <br>
