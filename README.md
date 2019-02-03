@@ -38,12 +38,23 @@ eg: 2^-4 = 1 / 2^4; -> n = -n, x = 1 / x; <br><br>
 *Space*: O(logx) // how many call_Stack <br>
 
 
-## 153. Find Minimum in Rotated Sorted Array
+## 153. Find Minimum in Rotated Sorted Array<br>
 *Solution*: <br>
 Regular Binary Search, assume the first num is the minNum, and set it as a target. Narrow the searching range to two nums. Compare these two with the minNum. 
 <br> <br>
 *Time*: O(logn) <br>
 *Space*: O(1) <br>
+
+
+
+## 283. Move Zeroes <br>
+*Tag*: Array; Two Pointer; <br>
+*Solution*: <br>
+Two Pointer(same direction); One Pointer "zero" stays at the first zero element; The other Pointer "non -zero" find the first non-zero element; Then swap them; <br>
+*Time*: O(n) <br>
+*Space*: O(1) <br>
+*Tips*: <br>
+1. Name the two pointers as slow and fast can help understand. <br>
 
 
 ## 412. Fizz Buzz<br>
