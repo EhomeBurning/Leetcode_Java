@@ -1,35 +1,34 @@
-public class Lc153_Find_Minimum_in_Rotated_Sorted_Array {
-/**
- * Questions: No duplicate; order;
- * Tag: Binary Search, Array
- * Time: O(logn)
- * Space: O(1)
- * Solution: 跟rotate array找target一个原理，把第一个作为target; 需要两个指针， start + 1 < end;
- * Note:
- */
+// Solution: <br>
+// Regular Binary Search, assume the first num is the minNum, and set it as a target. Narrow the searching range to two nums. Compare these two with the minNum. 
+// <br> <br>
+// Time: O(logn) <br>
+// Space: O(1) <br>
 
+
+
+
+class Solution {
     public int findMin(int[] nums) {
         if (nums == null || nums.length == 0) {
-            return 0;
+            return -1;
         }
-
-        int target = nums[0];
-        int start = 0, end = nums.length - 1;
-        while (start + 1 < end) {
-            int mid = start + (end - start) / 2;
-            if (nums[mid] > target) {
-                start = mid;
+        
+        int left = 0, right = nums.length - 1;
+        int minNum = nums[0];
+        while (left + 1 < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] > minNum) {
+                left = mid;
             } else {
-                end = mid;
+                right = mid;
             }
         }
-        if (nums[end] < target) {
-            return nums[end];
+        if (nums[left] < minNum) {
+            minNum = nums[left];
         }
-        if (nums[start] < target) {
-            return nums[start];
+        if (nums[right] < minNum) {
+            minNum = nums[right];
         }
-        return target;
-
+        return minNum;
     }
 }
