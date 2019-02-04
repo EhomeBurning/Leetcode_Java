@@ -46,6 +46,16 @@ Regular Binary Search, assume the first num is the minNum, and set it as a targe
 *Space*: O(1) <br>
 
 
+## 167. Two Sum II - Input array is sorted
+
+*Solution* : <br>
+Two Pointers(Different direction); 和正好就返回，和大了就right变小，和小了就left变大<br>
+*Time*: O(n) <br>
+*Space*: O(1) <br>
+*Tips*: <br>
+1. new int[]{-1, -1}; <br>
+2. avoid oveflow. numbers[left] == target - numbers[right]; <br>
+
 
 ## 283. Move Zeroes <br>
 *Tag*: Array; Two Pointer; <br>
