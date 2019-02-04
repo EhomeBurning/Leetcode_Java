@@ -77,3 +77,14 @@ loop through all the points of the matrix. For each point which equals 1, see it
 *Tips*: <br>
 1. Each surrounded zero should be in the matrix range. <br>
 2. For those not in the range, still add perimeter one. <br>
+
+
+## 561. Array Partition I <br>
+*Tag*: Array <br>
+*Solution*: <br>
+Sort the Array. jump two at one time.<br>
+
+*Time*: O(nlogn) <br>
+*Space*: O(1) <br>
+
+
