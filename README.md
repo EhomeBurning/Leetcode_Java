@@ -56,3 +56,12 @@ loop through all the points of the matrix. For each point which equals 1, see it
 *Tips*: <br>
 1. Each surrounded zero should be in the matrix range. <br>
 2. For those not in the range, still add perimeter one. <br>
+
+
+## 876. Middle of the Linked List
+*Tag* : Linked List; Two Pointer; <br>
+*Solution*: <br>
+Slow pointer for one step, fast pointer for two steps. <br>
+
+*Tips*: <br>
+Remember to check cornner cases. Avoid Null Pointer Exception. <br>
