@@ -50,7 +50,7 @@ eg: 2^-4 = 1 / 2^4; -> n = -n, x = 1 / x; <br><br>
 
 *Tips*: <br>
 1. queue.isEmpty() <br>
-
+2. Follow up can be DFS. <br>
 
 
 
