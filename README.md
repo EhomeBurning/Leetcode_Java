@@ -38,6 +38,23 @@ eg: 2^-4 = 1 / 2^4; -> n = -n, x = 1 / x; <br><br>
 *Space*: O(logx) // how many call_Stack <br>
 
 
+
+## 102. Binary Tree Level Order Traversal
+*Solution*: Queue;  <br>
+1. Initial: root; <br>
+2. Generate rule: left and right; <br>
+3. Terminate Condition: queue is empty. <br>
+
+*Time*: O(n) <br>
+*Space*: O(n) <br>
+
+*Tips*: <br>
+1. queue.isEmpty() <br>
+
+
+
+
+
 ## 153. Find Minimum in Rotated Sorted Array<br>
 *Solution*: <br>
 Regular Binary Search, assume the first num is the minNum, and set it as a target. Narrow the searching range to two nums. Compare these two with the minNum. 
@@ -65,6 +82,38 @@ Two Pointer(same direction); One Pointer "zero" stays at the first zero element;
 *Space*: O(1) <br>
 *Tips*: <br>
 1. Name the two pointers as slow and fast can help understand. <br>
+
+
+## 378. Kth Smallest Element in a Sorted Matrix
+*Solution*: <br>
+1. initial state (start node): matrix[0][0] <br>
+
+2. Node expansion/generation rule : <br>
+generate matrix[0][1]; generate matrix[1][0]; <br>
+12345<br>
+23456<br>
+34567<br>
+45678<br>
+56789<br>
+p_queue(2,2) <br>
+
+3. Termination condition: <br>
+When the kth element pop out from the p_queue. <br>
+
+4. De-duplicate: <br>
+Build another matrix to store whether generate or not. <br>
+
+
+*Time*: <br>
+k iteration. For each iteration: <br>
+1. pop an element from q_queue. max 2k elements. pq.pop() -> log(2k) = log(k); <br>
+2. generate at most two neighbor elements. pq.insert(neighbor) -> 2log(k); <br>
+Overall: k * 3log(k) = klog(k); <br>
+
+*Space*: O(2k) = O(k) <br>
+
+*Tips*: 
+1. Remember to de-duplicate. <br>
 
 
 ## 412. Fizz Buzz<br>
