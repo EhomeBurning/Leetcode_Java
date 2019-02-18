@@ -54,6 +54,15 @@ eg: 2^-4 = 1 / 2^4; -> n = -n, x = 1 / x; <br><br>
 
 
 
+## 133. Clone Graph
+*Solution*: <br>
+Graph; HashMap; BFS; Queue; <br>
+1. get all the nodes. One Queue and one HashSet. HashSet: This is the result.store all the unique nodes. Queue: store all the neighbors, and poll it until it is empty. <br>
+2. copy the labels. One HashMap. Key: old node from HashSet. Value: new nodes with labels. <br>
+3. copy the neighbors. BFS. For each of all the new nodes in HashMap, copy the neighbors of the old nodes. <br>
+
+
+
 
 ## 153. Find Minimum in Rotated Sorted Array<br>
 *Solution*: <br>
