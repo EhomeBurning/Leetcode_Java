@@ -62,6 +62,14 @@ Graph; HashMap; BFS; Queue; <br>
 3. copy the neighbors. BFS. For each of all the new nodes in HashMap, copy the neighbors of the old nodes. <br>
 
 
+## 138. Copy List with Random
+*Solution*: <br>
+LinkedList; HashMap; <br>
+key: origin node; value: new node; <br>
+1. copy value and put in HashMap. <br>
+2. copy the random pointer. <br>
+
+
 
 
 ## 153. Find Minimum in Rotated Sorted Array<br>
