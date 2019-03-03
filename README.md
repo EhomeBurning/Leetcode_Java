@@ -144,16 +144,6 @@ loop through all the points of the matrix. For each point which equals 1, see it
 1. Each surrounded zero should be in the matrix range. <br>
 2. For those not in the range, still add perimeter one. <br>
 
-
-<<<<<<< HEAD
-## 876. Middle of the Linked List
-*Tag* : Linked List; Two Pointer; <br>
-*Solution*: <br>
-Slow pointer for one step, fast pointer for two steps. <br>
-
-*Tips*: <br>
-Remember to check cornner cases. Avoid Null Pointer Exception. <br>
-=======
 ## 561. Array Partition I <br>
 *Tag*: Array <br>
 *Solution*: <br>
@@ -163,4 +153,15 @@ Sort the Array. jump two at one time.<br>
 *Space*: O(1) <br>
 
 
->>>>>>> b0fec58f5e050c6bfedfd1057151e7af2ef02ab3
+## 876. Middle of the Linked List
+*Tag* : Linked List; Two Pointer; <br>
+*Solution*: <br>
+Slow pointer for one step, fast pointer for two steps. <br>
+*Tips*: <br>
+Remember to check cornner cases. Avoid Null Pointer Exception. <br>
+
+## Topological Sorting
+
+
+
+
