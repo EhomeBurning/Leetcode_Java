@@ -160,7 +160,16 @@ Slow pointer for one step, fast pointer for two steps. <br>
 *Tips*: <br>
 Remember to check cornner cases. Avoid Null Pointer Exception. <br>
 
+
 ## Topological Sorting
+*Solution*: <br>
+getIndegree: <br>
+input -> graph; output -> hashMap(key: node; value: Indegree);<br>
+startNode will not be in the hashMap. <br>
+
+bfs: <br>
+input: graph, hashMap; output: topSortOrder; <br>
+
 
 
 
