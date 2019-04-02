@@ -2,12 +2,15 @@
 // 1. Initial: root; <br>
 // 2. Generate rule: left and right; <br>
 // 3. Terminate Condition: queue is empty. <br>
-
+//  offer in root node; for each level, get the size of level nodes, expand the root node and get all child node in the queue; Until the queue is empty; <br>
+//
 // *Time*: O(n) <br>
 // *Space*: O(n) <br>
-
+//
 // *Tips*: <br>
 // 1. queue.isEmpty() <br>
+// 1. for each level, get the size of this level; <br>
+// 2. tree gets two iterations, graph can get three: queue, node, neighbors;
 
 
 /**
@@ -28,32 +31,32 @@
 // ]
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
-        List result = new ArrayList();
-        
+        List<List<Integer>> result = new ArrayList<>();
         if (root == null) {
             return result;
         }
         
-        Queue<TreeNode> nodeQueue = new LinkedList<TreeNode>();
-        nodeQueue.offer(root);
-        while (!nodeQueue.isEmpty()) {
-            List<Integer> levelResult = new ArrayList<>();
-            int levelSize = nodeQueue.size();
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            int levelSize = queue.size();
+            List<Integer> levelNodes = new ArrayList<>();
             for (int i = 0; i < levelSize; i++) {
-                TreeNode head = nodeQueue.poll();
-                if (head.left != null) {
-                    nodeQueue.offer(head.left);
+                TreeNode node = queue.poll();
+                levelNodes.add(node.val);
+                if (node.left != null) {
+                    queue.offer(node.left);
                 }
-                if (head.right != null) {
-                    nodeQueue.offer(head.right);
+                if (node.right != null) {
+                    queue.offer(node.right);
                 }
-                levelResult.add(head.val);
             }
-            result.add(levelResult);
+            result.add(levelNodes);
         }
         return result;
     }
 }
+
 
 // Expected Result: 
 // [3,9,20,15,7]

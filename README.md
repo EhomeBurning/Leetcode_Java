@@ -44,13 +44,16 @@ eg: 2^-4 = 1 / 2^4; -> n = -n, x = 1 / x; <br><br>
 1. Initial: root; <br>
 2. Generate rule: left and right; <br>
 3. Terminate Condition: queue is empty. <br>
+offer in root node; for each level, get the size of level nodes, expand the root node and get all child node in the queue; Until the queue is empty; <br>
 
 *Time*: O(n) <br>
 *Space*: O(n) <br>
 
 *Tips*: <br>
 1. queue.isEmpty() <br>
-2. Follow up can be DFS. <br>
+1. for each level, get the size of this level; <br>
+2. tree gets two iterations, graph can get three: queue, node, neighbors;
+
 
 
 
