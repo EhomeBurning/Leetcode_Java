@@ -55,6 +55,26 @@ offer in root node; for each level, get the size of level nodes, expand the root
 2. tree gets two iterations, graph can get three: queue, node, neighbors;
 
 
+## 103. Binary Tree ZigZag Level Order Traversal
+*Tag*: BFS; <br>
+*Solution*: <br>
+Difference between this question and #102: set a flag(bool), change it every time applied. <br>
+boolean falg = true; <br>
+flag = flag ? false : true; <br>
+
+*Time*: O(n);<br>
+*Space*: O(n);<br>
+
+
+
+## 107. Binary Tree Level Order Traversal II
+*Tag*: BFS, LinkedList; <br>
+*Solution*: <br>
+difference with #102. Use LinkedList as result data structure. Add each level to the index 0 of list. <br>;
+*Time*: O(n); <br>
+*Space*: O(n); <br>
+
+
 
 
 ## 133. Clone Graph
