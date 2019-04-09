@@ -75,6 +75,30 @@ difference with #102. Use LinkedList as result data structure. Add each level to
 *Space*: O(n); <br>
 
 
+## 114. Flatten Binary Tree to Linked List
+*Tag*: DFS; <br>
+*Solution*: <br>
+Stack; push root in stack; For child level, push right first, then left; Set root right child as stack.peek(), left child as null; Until the stack is empty; <br>
+
+*Time*: O(n) <br>
+*Space*: O(n) <br>
+*Tips*: Check the stack if it is empty. 
+
+
+
+## 127. Word Ladder
+*Tag*: BFS; <br>
+*Solution*: <br>
+BFS: One Queue, one HashSet. Queue stores one level of words. Each level is oneEditDistance away. HashSet stores all the words that has been visited. (1) queue is not empty. (2) every word in queue. (3) all oneEditDistance words of the beginning word. <br>
+oneEditDistance: Generate rule for the word in queue to expand the next level. for 26 letters in English, change one letter of the words. If the changed word exists in the wordList, then it is oneEditDistance. <br>
+*Time*:
+*Space*:
+*Tips*: <br>
+1. Compare two ways of oneEditDistance: <br>
+(1) Compare all the words in wordList to the begin word. wordList -> N, word length -> L. Time: O(N * L) <br>
+(2) oneEditDistance: wordList -> N, word length -> L. Time: O(26 * L^2);
+
+
 
 
 ## 133. Clone Graph
