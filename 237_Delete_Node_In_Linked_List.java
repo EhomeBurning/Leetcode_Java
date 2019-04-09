@@ -6,17 +6,21 @@
  * Note: given the only access to the node that we wanna delete;
  */
 
-public class Lc237_Delete_Node_In_Linked_List {
+// *Tag*: LinkedList; <br>
+// *Solution*: Unlike normal deletion, this problem is using node.next replace node. <br>
+
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
     public void deleteNode(ListNode node) {
         node.val = node.next.val;
         node.next = node.next.next;
     }
 }
-
-
-public class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
-

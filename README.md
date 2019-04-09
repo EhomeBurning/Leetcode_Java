@@ -138,6 +138,20 @@ Two Pointers(Different direction); 和正好就返回，和大了就right变小�
 2. avoid oveflow. numbers[left] == target - numbers[right]; <br>
 
 
+## 203. Remove Linked List Elements
+*Tag*: LinkedList; <br>
+*Solution*: <br>
+Set an dummy node as head prev. loop all LinkedList, if the value matches, delete the node. <br>
+*Time*: O(n) <br>
+*Space*: O(1) <br>
+
+
+## 237. Delete Node in a Linked List
+*Tag*: LinkedList; <br>
+*Solution*: Unlike normal deletion, this problem is using node.next replace node. <br>
+
+
+
 ## 283. Move Zeroes <br>
 *Tag*: Array; Two Pointer; <br>
 *Solution*: <br>

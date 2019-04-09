@@ -2,8 +2,8 @@
 // *Solution*: <br>
 // BFS: One Queue, one HashSet. Queue stores one level of words. Each level is oneEditDistance away. HashSet stores all the words that has been visited. (1) queue is not empty. (2) every word in queue. (3) all oneEditDistance words of the beginning word. <br>
 // oneEditDistance: Generate rule for the word in queue to expand the next level. for 26 letters in English, change one letter of the words. If the changed word exists in the wordList, then it is oneEditDistance. <br>
-// *Time*:
-// *Space*:
+// *Time*: O(n + m); <br>
+// *Space*: O(n); <br>
 // *Tips*: <br>
 // 1. Compare two ways of oneEditDistance: <br>
 // (1) Compare all the words in wordList to the begin word. wordList -> N, word length -> L. Time: O(N * L) <br>
