@@ -138,6 +138,10 @@ Two Pointers(Different direction); 和正好就返回，和大了就right变小�
 2. avoid oveflow. numbers[left] == target - numbers[right]; <br>
 
 
+## 200. Number of Islands
+
+
+
 ## 203. Remove Linked List Elements
 *Tag*: LinkedList; <br>
 *Solution*: <br>
