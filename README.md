@@ -198,6 +198,20 @@ Overall: k * 3log(k) = klog(k); <br>
 1. Remember to de-duplicate. <br>
 
 
+## 387. First Unique Character in a String
+
+*Tag*: String;<br>
+*Solution*: <br>
+
+int[] count = new int[26]; <br>
+count[ch - 'a']++; <br>
+*Time*: O(n); <br>
+*Space*: O(1); <br>
+*Tips*: <br>
+1. str.length();
+
+
+
 ## 412. Fizz Buzz<br>
 one more counter solution. ++ before if condition ; <br>
 
