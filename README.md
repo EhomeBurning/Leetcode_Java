@@ -166,6 +166,17 @@ Two Pointer(same direction); One Pointer "zero" stays at the first zero element;
 1. Name the two pointers as slow and fast can help understand. <br>
 
 
+## 340. Longest Substring with At Most K Distinct Characters
+*Tag*: String, Sliding Window; <br>
+*Solution*: <br>
+Sliding Window -> (i, j); <br>
+Move j and update int[] count; When the numOfDistChar > k, move i, update count if count[s.charAt(i)] == 0 and i++; <br>
+update result;
+*Time*: O(n); <br>
+*Space*: O(1); <br>
+
+
+
 ## 378. Kth Smallest Element in a Sorted Matrix
 *Solution*: <br>
 1. initial state (start node): matrix[0][0] <br>
@@ -232,6 +243,14 @@ Sort the Array. jump two at one time.<br>
 *Space*: O(1) <br>
 
 
+## 680. Valid Palindrome II
+*Tag*: String;<br>
+*Solution*: <br>
+isValid(left + 1, right), isValid(left, right - 1); <br>
+*Time*: O(n); Only delete once; <br>
+*Space*: O(1);<br>
+
+
 ## 876. Middle of the Linked List
 *Tag* : Linked List; Two Pointer; <br>
 *Solution*: <br>
@@ -248,6 +267,10 @@ startNode will not be in the hashMap. <br>
 
 bfs: <br>
 input: graph, hashMap; output: topSortOrder; <br>
+
+hello   
+world    
+1  
 
 
 

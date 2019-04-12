@@ -1,27 +1,38 @@
-// time: O(n)
-// space: O(1)
-// solution: not palidrome, then check (i+1, j) and (i, j-1)
+// *Tag*: String;<br>
+// *Solution*: <br>
+// isValid(left + 1, right), isValid(left, right - 1); <br>
+// *Time*: O(n); Only delete once; <br>
+// *Space*: O(1);<br>
+
 
 class Solution {
     public boolean validPalindrome(String s) {
-          for (int i = 0; i < s.length() / 2; i++) {
-              if (s.charAt(i) != s.charAt(s.length() - i - 1)) {
-                  int j = s.length() - 1 - i;
-                  return isPalindromeRange(s, i + 1, j) || isPalindromeRange(s, i, j - 1);
-              }
-          }
-          return true;
-    }
-    
-    private boolean isPalindromeRange(String s, int i, int j) {
-        while (i < j) {
-            if (s.charAt(i) != s.charAt(j)) {
-                return false;
+        if (s.length() == 0 || s == null) {
+            return true;
+        }
+        int left = 0, right = s.length() - 1;
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) {
+                if (isValid(s, left + 1, right) || isValid(s,left, right - 1)) {
+                    return true;
+                } else {
+                    return false;
+                }
             }
-            i++;
-            j--;
+            left++;
+            right--;
         }
         return true;
     }
-    
+    // Chech if Palindrome or not;
+    private boolean isValid(String s, int left, int right) {
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
+    }
 }
