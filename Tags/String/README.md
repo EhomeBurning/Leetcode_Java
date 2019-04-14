@@ -1,17 +1,46 @@
 # String 
-## 4. String Reversal
-### Method 1:   
-Iteration(two pointers different direction).   
+*There are five topics about String*
+
+## 1. Removal 
+### 1.1 remove some particular chars from a string.
+### 1.2 remove all leading/tralling/duplicated empty spaces from a string
+
+## 2. Deduplicate
+
+
+## 3. Substring -> strstr
+
+
+
+## 4. String Reversal  
+
+### 4.1 basic reverse   
+(344. Reverse String)[https://leetcode.com/problems/reverse-string/]   
+Example 1:
+Input: ["h","e","l","l","o"]
+Output: ["o","l","l","e","h"]
+Method 1:   Iteration(two pointers different direction). Swap left and right pointers.        
 Time: O(n);   
 Space: O(1);   
 
-### Method 2: 
-Recursive:    
-1. base case: 0 or 1 char remaining.  i >= j.   
-2. recursive rule: reverse(i + 1, j - 1).    
+Method 2: Recursive.   
+1. base case: 0 or 1 char remaining.  i >= j.     
+2. recursive rule: reverse(i + 1, j - 1).      
+ 
+### 4.2 reverse words in sentence  
+(151. Reverse Words in a String)[https://leetcode.com/problems/reverse-words-in-a-string/] 
+Example 1:    
+Input: "the sky is blue"  
+Output: "blue is sky the"  
+Method1: Stack  
+Method2:   
+Step1. Reverse each word    
+Step2. Reverse the sentence   
 
 
 
 
-[This is an exercise](https://github.com/tonglyu/Laicode/blob/master/Class9_StringII/ReverseString.java)
 
+
+
+## 5. Replacement
