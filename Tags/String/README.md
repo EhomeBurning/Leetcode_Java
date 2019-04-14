@@ -55,4 +55,34 @@ Output: "blue is sky the"
 
 
 
-## 5. Replacement
+## 5. Replacement  
+### 5.1 replace given 
+s1 -> s2   
+#### 5.1.1. Case 1(s1.size() >= s2.size()):     
+1. Solution     
+slow: all letters on the left hand side are results.   
+fast: scan all the letters.   
+
+2. Example   
+S, f  two pointer 
+Den -> XX 
+s   t   u  d  e  n  t  d  e n t   
+s   t   u  X  X t   X X  t   
+                            S   
+                                F    
+
+Corner case: Size of replacement longer than original.     
+
+#### 5.1.2. Case 2(s1.size() < s2.size()):   
+1. Step 1: Scan left to right to find occurances of s1.  
+2. Step 2: new size = n + 2 * (s2.size() - s1.size()) .    
+3. Step 3: Two pointers same direction right to left:     
+(1) slow: all letters on the rhs of slow are results.  
+(2) fast: current index   
+
+
+
+
+
+
+
