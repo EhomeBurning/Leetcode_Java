@@ -17,10 +17,11 @@
 ### 4.1 basic reverse   
 #### [344. Reverse String](https://leetcode.com/problems/reverse-string/)    
 Input: ["h","e","l","l","o"]   
-Output: ["o","l","l","e","h"]   
-Method 1:   Iteration(two pointers different direction). Swap left and right pointers.        
-Time: O(n);    
-Space: O(1);   
+Output: ["o","l","l","e","h"]    
+
+Method 1:   Iteration(two pointers different direction). Swap left and right pointers.          
+1. Time: O(n);     
+2. Space: O(1);   
 
 Method 2: Recursive.   
 1. base case: 0 or 1 char remaining.  i >= j.     
