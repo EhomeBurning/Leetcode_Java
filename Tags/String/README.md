@@ -16,7 +16,6 @@
 
 ### 4.1 basic reverse   
 #### [344. Reverse String](https://leetcode.com/problems/reverse-string/)    
-Example 1:
 Input: ["h","e","l","l","o"]   
 Output: ["o","l","l","e","h"]   
 Method 1:   Iteration(two pointers different direction). Swap left and right pointers.        
@@ -29,12 +28,15 @@ Method 2: Recursive.
 
  
 ### 4.2 Double shift -> "I love Google" trick
-#### 4.2.1 Right shift 
-Example question: reverse words in sentence    
+#### 4.2.1 Right shift by N Characters  
+
+
+#### 4.2.2 Reverse words
 [186. Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/)   
 Input:  ["t","h","e"," ","s","k","y"," ","i","s"," ","b","l","u","e"]  
 Output: ["b","l","u","e"," ","i","s"," ","s","k","y"," ","t","h","e"]  
 
+#### 4.2.3 Reverse words with spaces 
 [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)     
 *Handle the Spaces - head, trailing, between*  
 Example 1:    
