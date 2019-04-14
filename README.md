@@ -117,6 +117,15 @@ key: origin node; value: new node; <br>
 2. copy the random pointer. <br>
 
 
+## 151. Reverse Words in a String  
+*Tag*: String -> StringReversal;
+*Solution*:
+Step1. Reverse the sentence
+Step2. Reverse each word: find the start and end index of the words
+Step3. Clean spaces using two pointers.
+*Tips*:
+1. Mind leading and trailing spaces of the input String.
+2. Mind multiple spaces between two words.
 
 
 ## 153. Find Minimum in Rotated Sorted Array<br>
@@ -136,6 +145,11 @@ Two Pointers(Different direction); 和正好就返回，和大了就right变小�
 *Tips*: <br>
 1. new int[]{-1, -1}; <br>
 2. avoid oveflow. numbers[left] == target - numbers[right]; <br>
+
+## 186. Reverse Words in a String II
+*Tag*: String -> StringReversal;  
+*Solution*:   
+Similar to 151. Reverse Words in a String;  
 
 
 ## 200. Number of Islands
