@@ -40,11 +40,10 @@ Output: ["b","l","u","e"," ","i","s"," ","s","k","y"," ","t","h","e"]
 #### 4.2.3 Reverse words with spaces 
 [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)     
 *Handle the Spaces - head, trailing, between*  
-Example 1:    
 Input: "the sky is blue"  
 Output: "blue is sky the"  
-Method1: Stack  
-Method2:   
+1. Method1: Stack  
+2. Method2:   
 Step1. Reverse each word    
 Step2. Reverse the sentence   
 
