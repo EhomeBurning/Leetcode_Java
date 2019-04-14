@@ -81,6 +81,21 @@ Corner case: Size of replacement longer than original.
 (2) fast: current index   
 
 
+# Advanced Topics 
+## 6. Shuffling(ABCD1234 -> A1B2C3D4)  
+
+
+
+## 7. Permutation(DFS)   
+
+
+## 8. Decoding/Encoding(aaabbbc -> a3b3c1)  
+
+
+
+## 9. Sliding window using two pointers   
+
+
 
 
 
