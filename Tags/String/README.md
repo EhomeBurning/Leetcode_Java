@@ -19,13 +19,13 @@
 Input: ["h","e","l","l","o"]   
 Output: ["o","l","l","e","h"]    
 
-Method 1:   Iteration(two pointers different direction). Swap left and right pointers.          
-1. Time: O(n);     
-2. Space: O(1);   
+1. Method 1:   Iteration(two pointers different direction). Swap left and right pointers.          
+(1) Time: O(n);     
+(2) Space: O(1);   
 
-Method 2: Recursive.   
-1. base case: 0 or 1 char remaining.  i >= j.     
-2. recursive rule: reverse(i + 1, j - 1).      
+2. Method 2: Recursive.   
+(1) base case: 0 or 1 char remaining.  i >= j.     
+(2) recursive rule: reverse(i + 1, j - 1).      
 
  
 ### 4.2 Double shift -> "I love Google" trick
