@@ -29,6 +29,8 @@ Output: ["o","l","l","e","h"]
 
  
 ### 4.2 Double shift -> "I love Google" trick
+Step1. Reverse the sentence    
+Step2. Reverse each word    
 #### 4.2.1 Right shift by N Characters  
 
 
@@ -43,9 +45,8 @@ Output: ["b","l","u","e"," ","i","s"," ","s","k","y"," ","t","h","e"]
 Input: "the sky is blue"  
 Output: "blue is sky the"  
 1. Method1: Stack  
-2. Method2:   
-Step1. Reverse each word    
-Step2. Reverse the sentence   
+2. Method2: Double shift trick    
+ 
 
 
 
