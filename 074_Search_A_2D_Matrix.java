@@ -1,39 +1,39 @@
-/**
- * Tag: Binary Search, Array
- * Time Complexity: O(logn)
- * Space Complexity: O(1)
- */
+// > Tag: Binary Search -> Matrix;
+// > Solution: midRow = mid / col; midCol = mid % col;
+// > Time: O(logn);
+// > Space: O(1);
 
 
-public class Lc74_Search_A_2D_Matrix {
+class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        if (matrix == null || matrix.length == 0) return false;
-        if (matrix[0] == null || matrix[0].length == 0) return false;
-
+        if (matrix == null || matrix.length == 0) {
+            return false;
+        }
+        if (matrix[0] == null || matrix[0].length == 0) {
+            return false;
+        }
+        
         int row = matrix.length;
         int col = matrix[0].length;
-        int start = 0, end = row * col - 1;
-
-        while (start + 1 < end) {
-            int mid = start + (end - start) / 2;
-            int num = matrix[mid / col][mid % col];
-
-            if (num == target) {
+        int left = 0, right = row * col - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            int midRow = mid / col;
+            int midCol = mid % col;
+            if (matrix[midRow][midCol] == target) {
                 return true;
-            } else if (num > target) {
-                end = mid;
+            } else if (matrix[midRow][midCol] < target) {
+                left = mid + 1;
             } else {
-                start = mid;
+                right = mid - 1;
             }
         }
-
-        if (matrix[start / col][start % col] == target) {
-            return true;
-        }else if (matrix[end / col][end % col] == target) {
-            return true;
-        }
-
         return false;
-
     }
 }
+
+
+
+
+
+

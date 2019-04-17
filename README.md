@@ -38,6 +38,14 @@ eg: 2^-4 = 1 / 2^4; -> n = -n, x = 1 / x; <br><br>
 *Space*: O(logx) // how many call_Stack <br>
 
 
+## 74. Search a 2D Matrix
+* Tag: Binary Search -> Matrix;  
+* Solution: midRow = mid / col; midCol = mid % col;  
+* Time: O(logn);  
+* Space: O(1);  
+
+
+
 
 ## 102. Binary Tree Level Order Traversal
 *Solution*: Queue;  <br>
@@ -167,6 +175,21 @@ Set an dummy node as head prev. loop all LinkedList, if the value matches, delet
 *Tag*: LinkedList; <br>
 *Solution*: Unlike normal deletion, this problem is using node.next replace node. <br>
 
+
+## 240. Search a 2D Matrix II 
+* Tag: Binary Search -> others;  
+* Solution: either start with top right or bottom left; x++, y-- to locate target;  
+* Time: O(m + n);  
+* Space: O(1);  
+
+
+## 278. First Bad Version  
+* Tag: Binary Search -> left + 1 < right;  
+* Solution: First true; if (nums[mid] == target) right = mid;  
+* Time: O(logn);  
+* Space: O(1);  
+* Note: 注意起始不是0，而是1  
+* why logn: 搜索区间的的变化，n,n/2,n/2^2,...,n/2^k -> n/2^k = 1 -> k = lgn = \theta(logn)  
 
 
 ## 283. Move Zeroes <br>
