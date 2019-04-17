@@ -129,11 +129,10 @@ Step3. Clean spaces using two pointers.
 
 
 ## 153. Find Minimum in Rotated Sorted Array<br>
-*Solution*: <br>
-Regular Binary Search, assume the first num is the minNum, and set it as a target. Narrow the searching range to two nums. Compare these two with the minNum. 
-<br> <br>
-*Time*: O(logn) <br>
-*Space*: O(1) <br>
+> Tag: Binary Search -> Rotated Sorted Array;
+> Time: O(logn);
+> Space: O(1);
+
 
 
 ## 167. Two Sum II - Input array is sorted
@@ -266,6 +265,12 @@ Sort the Array. jump two at one time.<br>
 isValid(left + 1, right), isValid(left, right - 1); <br>
 *Time*: O(n); Only delete once; <br>
 *Space*: O(1);<br>
+
+
+## 852. Peak Index in a Mountain Array
+> Solution: Basic Binary Search;
+> Time: O(nlogn);
+> Space: O(1);
 
 
 ## 876. Middle of the Linked List
