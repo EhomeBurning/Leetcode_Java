@@ -250,6 +250,15 @@ loop through all the points of the matrix. For each point which equals 1, see it
 1. Each surrounded zero should be in the matrix range. <br>
 2. For those not in the range, still add perimeter one. <br>
 
+
+## 540. Single Element in a Sorted Array 
+> Tag: Binary Search -> Classic;  
+> Solution: odd or even;  
+> Time: O(logn);  
+> Space: O(1);   
+
+
+
 ## 561. Array Partition I <br>
 *Tag*: Array <br>
 *Solution*: <br>
@@ -265,6 +274,15 @@ Sort the Array. jump two at one time.<br>
 isValid(left + 1, right), isValid(left, right - 1); <br>
 *Time*: O(n); Only delete once; <br>
 *Space*: O(1);<br>
+
+## 702. Search in a Sorted Array of Unknown Size  
+> Tag: Binary Search -> Classic;
+> Time: O(logn);
+> Space: O(1);
+
+## 704. Binary Search
+> Tag: Binary Search - Classic; 
+
 
 
 ## 852. Peak Index in a Mountain Array
