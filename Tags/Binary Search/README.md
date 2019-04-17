@@ -1,6 +1,6 @@
 # Binary Search 
 ## Topics
-* [1. Classic Binary Search Problems](classic-bianry-search-problems)  
+* [1. Classic Binary Search Problems](1-classic-bianry-search-problems)  
 * [2. ]
 
 ## 1. Classic Binary Search Problems
@@ -15,7 +15,7 @@
 > Output: 4  
 > Explanation: 9 exists in nums and its index is 4  
 
-* [540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)   
+* [540. Single Element in a Sorted Array(Medium)](https://leetcode.com/problems/single-element-in-a-sorted-array/)   
 > Input: [1,1,2,3,3,4,4,8,8]  
 > Output: 2  
 > Solution: mid odd or even;  
