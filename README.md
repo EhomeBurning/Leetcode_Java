@@ -268,6 +268,13 @@ Sort the Array. jump two at one time.<br>
 *Space*: O(1) <br>
 
 
+## 643. Maximum Average Subarray I  
+> Tag: Array;  
+> Solution: Get the sum of k. Keep going forward for fixed window k.  
+> Time: O(n);  
+> Space: O(1);  
+
+
 ## 680. Valid Palindrome II
 *Tag*: String;<br>
 *Solution*: <br>
