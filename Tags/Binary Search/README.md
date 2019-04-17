@@ -1,6 +1,6 @@
 # Binary Search 
 ## Topics
-* [1. Classic Binary Search Problems](1-classic-bianry-search-problems)  
+* [1. Classic Binary Search Problems](1.classic-bianry-search-problems)  
 * [2. ]
 
 ## 1. Classic Binary Search Problems
