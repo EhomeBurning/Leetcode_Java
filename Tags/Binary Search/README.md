@@ -32,6 +32,22 @@
 
 ## 2. left + 1 < right  
 
+* [ClosestToTarget](https://github.com/EhomeBurning/Leetcode_Java/blob/master/Tags/Binary%20Search/ClosestInSortedArray.java)
+> input: A = {1, 2, 3}, T = 2; output: 1   
+> input: A = {1, 4, 6}, T = 3, output: 1   
+
+* [FirstOccurrence](https://github.com/EhomeBurning/Leetcode_Java/blob/master/Tags/Binary%20Search/FirstOccurrence.java)
+```
+if (array[mid] == target) right = mid;
+if (array[left] == target) return left; 
+```
+
+
+* [LastOccurrence](https://github.com/EhomeBurning/Leetcode_Java/blob/master/Tags/Binary%20Search/LastOccurrence.java)
+```
+if (array[mid] == target) left = mid;
+if (array[right] == target) return right; 
+```
 
 * [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)  
 > Given n = 5, and version = 4 is the first bad version.  
@@ -39,7 +55,7 @@
 > call isBadVersion(5) -> true
 > call isBadVersion(4) -> true
 > Then 4 is the first bad version.  
-> Solution: First true; if (nums[mid] == target) right = mid;     
+> Solution: FirstOccurrence; 1. if (nums[mid] == target) right = mid;  2. 先看leftf符不符合      
 
 
 
