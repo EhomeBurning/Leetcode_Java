@@ -6,6 +6,7 @@
 * [2. Others](#2-others)
 
 ## 1. Classic Binary Search Problems
+*Find target in sorted Array*  
 
 * [704. Binary Search (Easy)](https://leetcode.com/problems/binary-search/)  
 > Input: nums = [-1,0,3,5,9,12], target = 9   
@@ -16,7 +17,17 @@
 > Input: array = [-1,0,3,5,9,12], target = 9  
 > Output: 4  
 > Explanation: 9 exists in nums and its index is 4  
-> Solution: Double index each time to find range;  
+> Solution:   
+> Step 1: Keep jumping 2 ^ i times until jump out of boundry;  
+> Step 2: Binary Search in [2 ^ (i - 1), 2 ^ i];   
+> Time: O(log_2(n)); Let n = 2 ^ i;  
+> Follow up: Ten times every time?   
+
+Action | Two Times | Ten Times  
+------------ | ------------ | -------------  
+Jump out | log_2(n) | log_10(n)   
+Jump in |  | log_2(2n) |  log_2(10n)  
+
 
 * [540. Single Element in a Sorted Array(Medium)](https://leetcode.com/problems/single-element-in-a-sorted-array/)   
 > Input: [1,1,2,3,3,4,4,8,8]  

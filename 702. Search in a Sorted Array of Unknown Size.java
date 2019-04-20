@@ -12,22 +12,22 @@ class Solution {
         
         int left = index / 2;
         int right = index;
-        while (left + 1 < right) {
+        while (left <= right) {
             int mid = left + (right - left) / 2;
             if (reader.get(mid) == target) {
                 return mid;
             } else if (reader.get(mid) > target) {
-                right = mid;
+                right = mid - 1;
             } else {
-                left = mid;
+                left = mid + 1;
             }
-        }
-        if (reader.get(left) == target) {
-            return left;
-        }
-        if (reader.get(right) == target) {
-            return right;
         }
         return -1;
     }
 }
+
+
+
+
+
+
