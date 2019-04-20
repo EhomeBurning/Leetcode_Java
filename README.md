@@ -124,6 +124,10 @@ key: origin node; value: new node; <br>
 1. copy value and put in HashMap. <br>
 2. copy the random pointer. <br>
 
+## 144. Binary Tree Preorder Traversal
+* Tag: Tree;    
+* Solution:  Iteration: Stack; Recursion;   
+
 
 ## 151. Reverse Words in a String  
 *Tag*: String -> StringReversal;
