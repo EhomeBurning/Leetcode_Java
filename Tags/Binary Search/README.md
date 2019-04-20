@@ -1,5 +1,5 @@
 # Binary Search 
-*Make the size of problem smaller every time and Time = O(logn) *
+*Make the size of problem smaller every time and Time = O(logn)*
 
 ## Topics
 * [1. Classic Binary Search Problems](#1-classic-bianry-search-problems)  
@@ -18,15 +18,20 @@
 > Output: 4  
 > Explanation: 9 exists in nums and its index is 4  
 > Solution:   
-> Step 1: Keep jumping 2 ^ i times until jump out of boundry;  
-> Step 2: Binary Search in [2 ^ (i - 1), 2 ^ i];   
+> 1. Step 1: Keep jumping 2 ^ i times until jump out of boundry;  
+> 2. Step 2: Binary Search in [2 ^ (i - 1), 2 ^ i];   
 > Time: O(log_2(n)); Let n = 2 ^ i;  
+  
+  
 > Follow up: Ten times every time?   
 
 Action | Two Times | Ten Times  
 ------------ | ------------ | -------------  
 Jump out | log_2(n) | log_10(n)   
-Jump in |  | log_2(2n) |  log_2(10n)  
+Jump in | log_2(2n) |  log_2(10n)  
+> n denotes the number of contents that should be searched. 
+> diff = Two Times - Ten Times = log_2(n) + log_10(n) - log_2(2n) - log_2(10n)  < 0  -> Two Times Better!  
+> n -> infinate, diff = 0 ->  equal; diff > 0 -> Ten better; diff < 0 -> Two better;  
 
 
 * [540. Single Element in a Sorted Array(Medium)](https://leetcode.com/problems/single-element-in-a-sorted-array/)   
@@ -60,7 +65,7 @@ if (array[mid] == target) left = mid;
 if (array[right] == target) return right; 
 ```
 
-* [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)  
+* [278. First Bad Version(Easy)](https://leetcode.com/problems/first-bad-version/)  
 > Given n = 5, and version = 4 is the first bad version.  
 > call isBadVersion(3) -> false
 > call isBadVersion(5) -> true
