@@ -302,6 +302,16 @@ Sort the Array. jump two at one time.<br>
 > Space: O(1);  
 
 
+## 658. Find K Closest Elements
+* Tag: Binary Search - left + 1 < right;  
+* Solution:   
+* 1. Step1: Find the left and right range of target;  
+* 2. Step2: Middle out. 中心开花， 谁近移谁;  
+* Time: O(logn + k);  
+* Space: O(1);   
+
+
+
 ## 680. Valid Palindrome II
 *Tag*: String;<br>
 *Solution*: <br>

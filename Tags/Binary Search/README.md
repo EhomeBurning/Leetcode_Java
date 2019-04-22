@@ -65,6 +65,14 @@ if (array[mid] == target) left = mid;
 if (array[right] == target) return right; 
 ```
 
+*[658. Find K Closest Elements(Medium)](https://leetcode.com/problems/find-k-closest-elements/)
+> Input: [1,2,3,4,5], k=4, x=3  
+> Output: [1,2,3,4]  
+> Solution:   
+> 1. Step1: Find the left and right range of target;  
+> 2. Step2: Middle out. 中心开花， 谁近移谁;   
+
+
 * [278. First Bad Version(Easy)](https://leetcode.com/problems/first-bad-version/)  
 > Given n = 5, and version = 4 is the first bad version.  
 > call isBadVersion(3) -> false
