@@ -58,14 +58,13 @@ if (array[mid] == target) right = mid;
 if (array[left] == target) return left; 
 ```
 
-
 * [LastOccurrence](https://github.com/EhomeBurning/Leetcode_Java/blob/master/Tags/Binary%20Search/LastOccurrence.java)
 ```
 if (array[mid] == target) left = mid;
 if (array[right] == target) return right; 
 ```
 
-*[658. Find K Closest Elements(Medium)](https://leetcode.com/problems/find-k-closest-elements/)
+* [658. Find K Closest Elements(Medium)](https://leetcode.com/problems/find-k-closest-elements/)
 > Input: [1,2,3,4,5], k=4, x=3  
 > Output: [1,2,3,4]  
 > Solution:   
@@ -82,8 +81,17 @@ if (array[right] == target) return right;
 > Solution: FirstOccurrence; 1. if (nums[mid] == target) right = mid;  2. 先看leftf符不符合      
 
 
+## 3. mid Value
+* [378. Kth Smallest Element in a Sorted Matrix(Medium)](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+> Solution:   
+> 1. Step 1: get the midVal(half of minVal and maxVal);   
+> 2. Step 2: count how many numbers bigger than midVal;   
+> 3. Step 3: change min or max depends on relationship between k and midVal;  
+> Time: O(nlog(max - min));  
+> Space: O(1);  
 
-## 2. Others
+
+## 3. Others
 
 * [240. Search a 2D Matrix II(Medium)](https://leetcode.com/problems/search-a-2d-matrix-ii/)  
 > input: [
@@ -96,6 +104,8 @@ if (array[right] == target) return right;
 > Given target = 5, return true.  
 > Given target = 20, return false.  
 > Solution: either start with top right or bottom left; x++, y-- to locate target;  
+
+
 
 
 

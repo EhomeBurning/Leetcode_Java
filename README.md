@@ -239,7 +239,6 @@ When the kth element pop out from the p_queue. <br>
 4. De-duplicate: <br>
 Build another matrix to store whether generate or not. <br>
 
-
 *Time*: <br>
 k iteration. For each iteration: <br>
 1. pop an element from q_queue. max 2k elements. pq.pop() -> log(2k) = log(k); <br>
@@ -250,6 +249,15 @@ Overall: k * 3log(k) = klog(k); <br>
 
 *Tips*: 
 1. Remember to de-duplicate. <br>
+
+* Tag: Binary Search;  
+> Solution:  
+> 1. Step 1: get the midVal(half of minVal and maxVal);  
+> 2. Step 2: count how many numbers bigger than midVal;  
+> 3. Step 3: change min or max depends on relationship between k and midVal;  
+* Time: O(nlog(max - min));  
+* Space: O(1);  
+
 
 
 ## 387. First Unique Character in a String
