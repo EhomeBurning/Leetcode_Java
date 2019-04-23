@@ -34,11 +34,6 @@ Jump in | log_2(2n) |  log_2(10n)
 > n -> infinate, diff = 0 ->  equal; diff > 0 -> Ten better; diff < 0 -> Two better;  
 
 
-* [540. Single Element in a Sorted Array(Medium)](https://leetcode.com/problems/single-element-in-a-sorted-array/)   
-> Input: [1,1,2,3,3,4,4,8,8]  
-> Output: 2  
-> Solution: mid odd or even;  
-
 * [74. Search a 2D Matrix(Medium)](https://leetcode.com/problems/search-a-2d-matrix/)   
 > Input: matrix = [[1,   3,  5,  7],[10, 11, 16, 20],[23, 30, 34, 50]]    
 > target = 3  
@@ -80,9 +75,29 @@ if (array[right] == target) return right;
 > Then 4 is the first bad version.  
 > Solution: FirstOccurrence; 1. if (nums[mid] == target) right = mid;  2. 先看leftf符不符合      
 
+## 3. Which Half
 
-## 3. mid Value
+* [540. Single Element in a Sorted Array(Medium)](https://leetcode.com/problems/single-element-in-a-sorted-array/)    
+> Input: [1,1,2,3,3,4,4,8,8]  
+> Output: 2  
+> Solution: mid odd or even;   
+
+* [33. Search in Rotated Sorted Array(Medium)](https://leetcode.com/problems/search-in-rotated-sorted-array/)  
+> Solution:   
+> 1. Step 1. classic binary search, get the mid;  
+> 2. Step 2. num[left] and nums[mid]  
+> 2.1 case 1: num[left] <= nums[mid]; num[left] <= target < nums[mid], right = mid - 1;    
+> 2.2 case 2: nums[mid] <= nums[right]; nums[mid] < target <= nums[right], left = mid + 1;   
+
+
+## 3. Half Value  
+* [374. Guess Number Higher or Lower(easy)](https://leetcode.com/problems/guess-number-higher-or-lower/)
+> Input: n = 10, pick = 6  
+> Output: 6  
+
+
 * [378. Kth Smallest Element in a Sorted Matrix(Medium)](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+Left pointer matters. 
 > Solution:   
 > 1. Step 1: get the midVal(half of minVal and maxVal);   
 > 2. Step 2: count how many numbers bigger than midVal;   

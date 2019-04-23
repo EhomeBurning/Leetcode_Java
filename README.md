@@ -20,8 +20,19 @@ Despite the regular "reverse integer" solution, there is one brilliant solution 
 Reverse half the integer; <br>
 condition: halfRev == num || halfRev / 10 = num; <br>
 tips: <br>
-for the second solution, remember to check the case : num != 0 && num % 10 == 0;
+for the second solution, remember to check the case : num != 0 && num % 10 == 0;  
 
+
+## 33. Search in Rotated Sorted Array    
+* Tag: Binary Search -> which half;   
+> Solution:     
+> 1. Step 1. classic binary search, get the mid;  
+> 2. Step 2. num[left] and nums[mid]  
+> case 1: num[left] <= nums[mid]; num[left] <= target < nums[mid], right = mid - 1;  
+> case 2: nums[mid] <= nums[right]; nums[mid] < target <= nums[right], left = mid + 1;  
+* Time: O(logn);  
+* Space: O(1);  
+ 
 
 ## 50. Pow(x, n) <br>
 *Example*:<br> 2^10 -> 2^5 -> 2^2 -> 2^1 -> 2^0 <br>
@@ -217,6 +228,12 @@ update result;
 
 ## 344. Reverse String  
 *Tag*: String -> StringReversal  
+
+
+## 374. Guess Number Higher or Lower
+* Tag: Binary Search -> half Value;  
+* Time: O(logn);  
+* Space: O(1);  
 
 
 
