@@ -1,4 +1,4 @@
-// > Tag: Binary Search -> Classic;
+// > Tag: Binary Search -> Which half;
 // > Solution: odd or even;
 // > Time: O(logn);
 // > Space: O(1);
