@@ -51,9 +51,22 @@ eg: 2^-4 = 1 / 2^4; -> n = -n, x = 1 / x; <br><br>
 
 ## 74. Search a 2D Matrix
 * Tag: Binary Search -> Matrix;  
-* Solution: midRow = mid / col; midCol = mid % col;  
-* Time: O(logn);  
-* Space: O(1);  
+>  Solution: midRow = mid / col; midCol = mid % col;  
+* Time: O(logn);    
+* Space: O(1);     
+
+
+## 81. Search in Rotated Sorted Array II  
+* Tag: Binary Search -> which half;  
+> Solution:   
+> 1. Step 1. classic binary search, get the mid;  
+> 2. Step 2. num[left], nums[mid]    
+> 2.1 case 1: num[left] < nums[mid]; num[left] <= target < nums[mid], right = mid - 1;    
+> 2.2 case 2: nums[left] > nums[mid]; nums[mid] < target <= nums[right], left = mid + 1;   
+> 2.3 case 3: nums[left] == nums[mid]; left++;   
+* Time: O(logn); worst case O(n);   
+* Space: O(1);   
+
 
 
 

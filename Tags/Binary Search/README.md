@@ -82,12 +82,28 @@ if (array[right] == target) return right;
 > Output: 2  
 > Solution: mid odd or even;   
 
-* [33. Search in Rotated Sorted Array(Medium)](https://leetcode.com/problems/search-in-rotated-sorted-array/)  
+* [33. Search in Rotated Sorted Array(Medium)](https://leetcode.com/problems/search-in-rotated-sorted-array/)   
+> Input: nums = [4,5,6,7,0,1,2], target = 0  
+> Output: 4  
 > Solution:   
 > 1. Step 1. classic binary search, get the mid;  
-> 2. Step 2. num[left] and nums[mid]  
+> 2. Step 2. num[left], nums[mid], nums[right]   
 > 2.1 case 1: num[left] <= nums[mid]; num[left] <= target < nums[mid], right = mid - 1;    
 > 2.2 case 2: nums[mid] <= nums[right]; nums[mid] < target <= nums[right], left = mid + 1;   
+
+
+* [81. Search in Rotated Sorted Array II(Medium)](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)   
+> Input: nums = [2,5,6,0,0,1,2], target = 0   
+> Output: true   
+
+> Solution:   
+> 1. Step 1. classic binary search, get the mid;  
+> 2. Step 2. num[left], nums[mid]    
+> 2.1 case 1: num[left] < nums[mid]; num[left] <= target < nums[mid], right = mid - 1;    
+> 2.2 case 2: nums[left] > nums[mid]; nums[mid] < target <= nums[right], left = mid + 1;   
+> 2.3 case 3: nums[left] == nums[mid]; left++;  
+
+
 
 
 ## 3. Half Value  
