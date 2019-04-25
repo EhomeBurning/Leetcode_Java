@@ -20,7 +20,15 @@ Despite the regular "reverse integer" solution, there is one brilliant solution 
 Reverse half the integer; <br>
 condition: halfRev == num || halfRev / 10 = num; <br>
 tips: <br>
-for the second solution, remember to check the case : num != 0 && num % 10 == 0;  
+for the second solution, remember to check the case : num != 0 && num % 10 == 0;    
+
+
+## 20. Valid Parentheses  
+* Tag: Stack -> Classic;  
+> Solution:   
+> Stack; Left push, right pop out.   
+* Time: O(n);   
+* Space: O(n); 
 
 
 ## 33. Search in Rotated Sorted Array    
@@ -159,6 +167,16 @@ key: origin node; value: new node; <br>
 ## 144. Binary Tree Preorder Traversal
 * Tag: Tree;    
 * Solution:  Iteration: Stack; Recursion;   
+
+## 150. Evaluate Reverse Polish Notation  
+* Tag: Stack -> Classic;   
+> Solution:   
+> 1. for nums, push into stack. continue;      
+> 2. for operators, pop two nums from stack and apply operators to them. push the result into stack.   
+* Time: O(n);    
+* Space: O(n);     
+
+
 
 
 ## 151. Reverse Words in a String  
@@ -418,6 +436,10 @@ isValid(left + 1, right), isValid(left, right - 1); <br>
 Slow pointer for one step, fast pointer for two steps. <br>
 *Tips*: <br>
 Remember to check cornner cases. Avoid Null Pointer Exception. <br>
+
+## 905. Sort Array By Parity  
+* Tag: Array -> swap
+
 
 
 ## Topological Sorting
