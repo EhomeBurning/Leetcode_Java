@@ -164,6 +164,15 @@ key: origin node; value: new node; <br>
 1. copy value and put in HashMap. <br>
 2. copy the random pointer. <br>
 
+
+## 141. Linked List Cycle  
+* Tag: LinkedList -> Two Pointer;    
+> Solution: slow and fast pointer. slow == fast then return true, or return false;    
+* Time: O(n);    
+* Space: O(1);     
+
+
+
 ## 144. Binary Tree Preorder Traversal
 * Tag: Tree;    
 * Solution:  Iteration: Stack; Recursion;   
@@ -236,6 +245,19 @@ Similar to 151. Reverse Words in a String;
 Set an dummy node as head prev. loop all LinkedList, if the value matches, delete the node. <br>
 *Time*: O(n) <br>
 *Space*: O(1) <br>
+
+## 206. Reverse Linked List  
+* Tag: 
+> Solution1(Iteration):get three node first. Then point back. Move forward.   
+> null -> 1 -> 2 -> 3 -> 4    
+> prev <- cur next  
+> Solution2(recursion): base case: null or one node; recursive rule: point back from left to right   
+> null -> 1 -> 2 -> 3 -> 4     
+>                      newHead = Node4    
+> Difference: Iteration left to right; Recursion right to left;   
+
+* Time: O(n);    
+* Space: O(1);     
 
 
 ## 232. Implement Queue using Stacks  
@@ -431,11 +453,11 @@ isValid(left + 1, right), isValid(left, right - 1); <br>
 
 
 ## 876. Middle of the Linked List
-*Tag* : Linked List; Two Pointer; <br>
-*Solution*: <br>
-Slow pointer for one step, fast pointer for two steps. <br>
-*Tips*: <br>
-Remember to check cornner cases. Avoid Null Pointer Exception. <br>
+* Tag: LinkedList;  
+> Solution: slow and fast pointers.  
+> Two version for odd: Node 3 or Node 4: difference -> (fast != null && fast.next != null) vs  (fast.next != null && fast.next.next != null)      
+* Time: O(n);  
+* Space: O(1);     
 
 ## 905. Sort Array By Parity  
 * Tag: Array -> swap
