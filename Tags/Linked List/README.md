@@ -4,12 +4,17 @@
 * Find middle     
 * Dummy Node    
 
-
 **key points**:     
 1.  de-reference a ListNode, make sure it is NOT NULL pointer.    
 2.  Never Ever lost the head pointer of LinkedList.     
 3.  head and tail corner cases. (check all heads and tails)          
 4. maintain tail pointer if add needed. 
+
+## Topics
+* [1. Classic ](#Classic)    
+* [2. Two Pointer](#Two-Pointer)    
+* [3. Dummy Node](#Dummy-Node)   
+* [4. Combination](#Combination)  
 
 ## Classic    
 * [Insert in sorted LinkedLIst](https://github.com/tonglyu/Algorithm_Class/blob/master/Class4_LinkedList/ExtraPractice/InsertInSortedLinkedList.java)    
@@ -32,7 +37,7 @@
 
 
 ## Two Pointer      
-* [876. Middle of the Linked List(Easy)(https://leetcode.com/problems/middle-of-the-linked-list/)       
+* [876. Middle of the Linked List(Easy)](https://leetcode.com/problems/middle-of-the-linked-list/)       
 > Input: [1,2,3,4,5,6]    
 > Output: Node 4 from this list (Serialization: [4,5,6])    
 > Solution: slow and fast pointers.   
@@ -56,12 +61,26 @@ ps: Return **dummyHead.next** everytime!
 > Output: 1->1->2->3->4->4   
 > Solution: dummyHead as a new LinkedList; cur loop all and add nodes following rule until all lists empty;   
 > ps: 
-1. add node as a **new** ListNode;   
-2. move cur every time;     
+> 1. add node as a **new** ListNode;   
+> 2. move cur every time;     
+
+
+* [86. Partition List(Medium)](https://leetcode.com/problems/partition-list/)   
+> Given a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.    
+> Input: head = 1->4->3->2->5->2, x = 3  
+> Output: 1->2->2->4->3->5->null   
+> Solution:     
+> 1. Step1: Two dummyHead;  
+> 2. Step2: Add nodes followed by rule;   
+> 3. Step3: merge two lists;     
+
+
+
 
 ## Combination    
 
 * [143. Reorder List(Medium)](https://leetcode.com/problems/reorder-list/)     
+*Deserve to do it again*   
 > Given a singly linked list L: L0→L1→…→Ln-1→Ln,    
 > reorder it to: L0→Ln→L1→Ln-1→L2→Ln-2→…   
 > Given 1->2->3->4, reorder it to 1->4->2->3.      
@@ -69,6 +88,11 @@ ps: Return **dummyHead.next** everytime!
 > 1. Step1: Find the middle node of the LinkedList;   
 > 2. Step2: reverse 2nd half;  eg: N100 -> N99 ->... -> N51;    
 > 3. Step3: Merge two LinkedList;    
+
+
+
+
+
 
 
 

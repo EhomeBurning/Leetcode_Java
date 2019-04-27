@@ -86,6 +86,16 @@ eg: 2^-4 = 1 / 2^4; -> n = -n, x = 1 / x; <br><br>
 * Space: O(1);   
 
 
+## 86. Partition List  
+* Tag: LinedList -> Dummy Node;   
+> Solution:     
+> 1. Step1: Two dummyHead;  
+> 2. Step2: Add nodes followed by rule;   
+> 3. Step3: merge two lists;     
+* Time: O(n);   
+* Space: O(n);   
+
+
 ## 101. Symmetric Tree  
 * Tag: BFS;  
 > Solution:   
@@ -180,6 +190,15 @@ key: origin node; value: new node; <br>
 > Solution: slow and fast pointer. slow == fast then return true, or return false;    
 * Time: O(n);    
 * Space: O(1);     
+
+## 143. Reorder List  
+* Tag: LinkedList -> Combination;   
+> Solution:     
+> 1. Step1: Find the middle node of the LinkedList;   
+> 2. Step2: reverse 2nd half;  eg: N100 -> N99 ->... -> N51;    
+> 3. Step3: Merge two LinkedList;    
+* Time: O(n);   
+* Space: O(n);   
 
 
 
