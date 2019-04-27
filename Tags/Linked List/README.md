@@ -1,12 +1,20 @@
-# LinkedList 
+# LinkedList   
+**Basic Skill**:      
+* Reverse    
+* Find middle     
+* Dummy Node    
 
-key points:     
+
+**key points**:     
 1.  de-reference a ListNode, make sure it is NOT NULL pointer.    
 2.  Never Ever lost the head pointer of LinkedList.     
-3. head and tail corner cases.   
+3.  head and tail corner cases. (check all heads and tails)          
+4. maintain tail pointer if add needed. 
 
-
-* [Insert in sorted LinkedLIst](https://github.com/tonglyu/Algorithm_Class/blob/master/Class4_LinkedList/ExtraPractice/InsertInSortedLinkedList.java)  
+## Classic    
+* [Insert in sorted LinkedLIst](https://github.com/tonglyu/Algorithm_Class/blob/master/Class4_LinkedList/ExtraPractice/InsertInSortedLinkedList.java)    
+> wrong example: cur.value < target && cur.next.value >= target   
+> Corner case:  head and tail. 
 
 
 
@@ -16,13 +24,14 @@ key points:
 > Solution1(Iteration):get three node first. Then point back. Move forward.     
 > null -> 1 -> 2 -> 3 -> 4      
 > prev <- cur next    
-> Solution2(recursion): base case: null or one node; recursive rule: point back from left to right     
+> Solution2(recursion): base case: null or one node; recursive rule: point back from left to right    
+![Recursion Part](/images/ReverseLinkedList_Recursion.png)   
 > null -> 1 -> 2 -> 3 -> 4       
 >                      newHead = Node4      
 > Difference: Iteration left to right; Recursion right to left;   
 
 
-## Two pointer   
+## Two Pointer      
 * [876. Middle of the Linked List(Easy)(https://leetcode.com/problems/middle-of-the-linked-list/)       
 > Input: [1,2,3,4,5,6]    
 > Output: Node 4 from this list (Serialization: [4,5,6])    
@@ -35,6 +44,41 @@ key points:
 > Output: true    
 > Explanation: There is a cycle in the linked list, where tail connects to the second node.     
 > Solution: slow and fast pointer. slow == fast then return true, or return false;     
+
+
+## Dummy Node     
+Q: Why and when should we use dummy node?    
+A: when we want to append new elements to an initially empty LinkedList, we do not want an initial head node.  dummyHead -> new head node.   
+ps: Return **dummyHead.next** everytime!   
+
+* [21. Merge Two Sorted Lists(Easy)](https://leetcode.com/problems/merge-two-sorted-lists/)      
+> Input: 1->2->4, 1->3->4   
+> Output: 1->1->2->3->4->4   
+> Solution: dummyHead as a new LinkedList; cur loop all and add nodes following rule until all lists empty;   
+> ps: 
+1. add node as a **new** ListNode;   
+2. move cur every time;     
+
+## Combination    
+
+* [143. Reorder List(Medium)](https://leetcode.com/problems/reorder-list/)     
+> Given a singly linked list L: L0→L1→…→Ln-1→Ln,    
+> reorder it to: L0→Ln→L1→Ln-1→L2→Ln-2→…   
+> Given 1->2->3->4, reorder it to 1->4->2->3.      
+> Solution:     
+> 1. Step1: Find the middle node of the LinkedList;   
+> 2. Step2: reverse 2nd half;  eg: N100 -> N99 ->... -> N51;    
+> 3. Step3: Merge two LinkedList;    
+
+
+
+
+
+
+
+
+
+
 
 
 

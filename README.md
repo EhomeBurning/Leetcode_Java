@@ -30,6 +30,16 @@ for the second solution, remember to check the case : num != 0 && num % 10 == 0;
 * Time: O(n);   
 * Space: O(n); 
 
+## 21. Merge Two Sorted Lists  
+* Tag: LinkedList -> dummy node;  
+> Solution: dummyHead as a new LinkedList; cur loop all and add nodes following rule until all lists empty;   
+> ps: 
+1. add node as a **new** ListNode;   
+2. move cur every time;   
+* Time: O(n);   
+* Space: O(n);   
+
+
 
 ## 33. Search in Rotated Sorted Array    
 * Tag: Binary Search -> which half;   
