@@ -45,6 +45,8 @@
 
 ## Basic Operations   
 input: 1 -> 2 -> 3 -> null    
+**Java pass by value**: no need to worry about head pointer.    
+
 * get length    
 *return 3*    
 ```
@@ -55,6 +57,18 @@ public int getLength(ListNode head) {
         head = head.next;
     }
     return length;
+}
+```
+
+* get index    
+*index = 0 -> return 1*
+```
+public ListNode getIndex(ListNode head, int index) {
+   while (index > 0 && head != null) {
+      head = head.next;
+      index--;
+   }
+   return index;
 }
 ```
 
@@ -94,8 +108,8 @@ public int getLength(ListNode head) {
 > Explanation:     
 > There is a cycle in the linked list, where tail connects to the second node.     
 > Solution:     
-> slow and fast pointer.        
-> slow == fast then return true, or return false;      
+> 1. slow and fast pointer.        
+> 2. slow == fast then return true, or return false;      
 
 
 ## Dummy Node     
