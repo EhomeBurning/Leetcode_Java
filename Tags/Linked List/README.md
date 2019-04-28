@@ -1,14 +1,40 @@
 # LinkedList   
-**Basic Skill**:      
-* Reverse    
-* Find middle     
-* Dummy Node    
+### Basic Skill:      
+* Reverse: Recursion + Iteration    
+* Find middle: slow and fast     
+* Merge lists: Dummy Node       
 
-**key points**:     
+### key points:     
 1.  de-reference a ListNode, make sure it is NOT NULL pointer.    
 2.  Never Ever lost the head pointer of LinkedList.     
 3.  head and tail corner cases. (check all heads and tails)          
-4. maintain tail pointer if add needed. 
+4. maintain tail pointer if add needed.   
+
+### Array vs LinkedList:   
+* Memory Layout      
+    * Array: consecutive allocated memory space, no overhead.   
+    * LinkedList: non-consecutive, overhead of multiple objects with the "next" reference.    
+      
+* (Random) access time     
+    * Array: O(1)  
+    * LinkedList: O(n) worst case    
+   
+* Search Time(non-sorted)   
+    * Array: O(n)
+    * LinkedList: O(n)
+    
+* Search Time(sorted)   
+    * Array: O(logn) - binary search     
+    * Linkedlist: O(n)   
+    * Reason: random access time is different for array and list.   
+
+### null pointer:   
+* The reference is not pointed to any Object on the heap.   
+* A special value for reference(default reference).    
+
+
+
+
 
 ## Topics
 * [1. Classic ](#Classic)    
@@ -23,13 +49,11 @@
 
 
 
-* [206. Reverse Linked List(Easy)](https://leetcode.com/problems/reverse-linked-list/)  
-> Input: 1->2->3->4->5->NULL   
-> Output: 5->4->3->2->1->NULL    
-> Solution1(Iteration):get three node first. Then point back. Move forward.     
+* [206. Reverse Linked List(Easy)](https://leetcode.com/problems/reverse-linked-list/)   
+> 1. Solution1(Iteration):get three node first. Then point back. Move forward.     
 > null -> 1 -> 2 -> 3 -> 4      
 > prev <- cur next    
-> Solution2(recursion): base case: null or one node; recursive rule: point back from left to right    
+> 2. Solution2(recursion): base case: null or one node; recursive rule: point back from left to right    
 ![Recursion Part](/images/ReverseLinkedList_Recursion.png)   
 > null -> 1 -> 2 -> 3 -> 4       
 >                      newHead = Node4      
@@ -38,27 +62,22 @@
 
 ## Two Pointer      
 * [876. Middle of the Linked List(Easy)](https://leetcode.com/problems/middle-of-the-linked-list/)       
-> Input: [1,2,3,4,5,6]    
-> Output: Node 4 from this list (Serialization: [4,5,6])    
-> Solution: slow and fast pointers.   
-> Two version for odd: Node 3 or Node 4: difference -> (fast != null && fast.next != null) vs  (fast.next != null && fast.next.next != null)    
+> Solution: slow and fast pointers.    
+> ps: 
+> 1. Node 3 or Node 4: difference -> (fast != null && fast.next != null) vs  (fast.next != null && fast.next.next != null)    
 
 
 * [141. Linked List Cycle(Easy)](https://leetcode.com/problems/linked-list-cycle/)   
-> Input: head = [3,2,0,-4], pos = 1    
-> Output: true    
 > Explanation: There is a cycle in the linked list, where tail connects to the second node.     
 > Solution: slow and fast pointer. slow == fast then return true, or return false;     
 
 
 ## Dummy Node     
-Q: Why and when should we use dummy node?    
-A: when we want to append new elements to an initially empty LinkedList, we do not want an initial head node.  dummyHead -> new head node.   
-ps: Return **dummyHead.next** everytime!   
+**Question**: Why and when should we use dummy node?    
+**Answer**: when we want to append new elements to an initially empty LinkedList, we do not want an initial head node.  dummyHead -> new head node.   
+**ps**: Return **dummyHead.next** everytime!    
 
 * [21. Merge Two Sorted Lists(Easy)](https://leetcode.com/problems/merge-two-sorted-lists/)      
-> Input: 1->2->4, 1->3->4   
-> Output: 1->1->2->3->4->4   
 > Solution: dummyHead as a new LinkedList; cur loop all and add nodes following rule until all lists empty;   
 > ps: 
 > 1. add node as a **new** ListNode;   
@@ -66,9 +85,6 @@ ps: Return **dummyHead.next** everytime!
 
 
 * [86. Partition List(Medium)](https://leetcode.com/problems/partition-list/)   
-> Given a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.    
-> Input: head = 1->4->3->2->5->2, x = 3  
-> Output: 1->2->2->4->3->5->null   
 > Solution:     
 > 1. Step1: Two dummyHead;  
 > 2. Step2: Add nodes followed by rule;   
