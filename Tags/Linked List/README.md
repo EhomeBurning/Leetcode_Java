@@ -36,24 +36,46 @@
 
 
 
-## Topics
+## Topics 
+* [0. Basic Operations](#Basic-Operations)
 * [1. Classic ](#Classic)    
 * [2. Two Pointer](#Two-Pointer)    
 * [3. Dummy Node](#Dummy-Node)   
-* [4. Combination](#Combination)  
+* [4. Combination](#Combination)    
+
+## Basic Operations   
+input: 1 -> 2 -> 3 -> null    
+* get length    
+*return 3*    
+```
+public int getLength(ListNode head) {
+    int length = 0;
+    while (head != null) {
+        length++;
+        head = head.next;
+    }
+    return length;
+}
+```
+
 
 ## Classic    
 * [Insert in sorted LinkedLIst](https://github.com/tonglyu/Algorithm_Class/blob/master/Class4_LinkedList/ExtraPractice/InsertInSortedLinkedList.java)    
-> wrong example: cur.value < target && cur.next.value >= target   
-> Corner case:  head and tail. 
+> 1. wrong example: 
+> cur.value < target && cur.next.value >= target   
+> 2. Corner case:    
+> head and tail. 
 
 
 
 * [206. Reverse Linked List(Easy)](https://leetcode.com/problems/reverse-linked-list/)   
-> 1. Solution1(Iteration):get three node first. Then point back. Move forward.     
+> 1. Solution1(Iteration):
+> get three node first. Then point back. Move forward.     
 > null -> 1 -> 2 -> 3 -> 4      
 > prev <- cur next    
-> 2. Solution2(recursion): base case: null or one node; recursive rule: point back from left to right    
+> 2. Solution2(recursion): 
+> base case: null or one node;    
+> recursive rule: point back from left to right.        
 ![Recursion Part](/images/ReverseLinkedList_Recursion.png)   
 > null -> 1 -> 2 -> 3 -> 4       
 >                      newHead = Node4      
@@ -62,14 +84,18 @@
 
 ## Two Pointer      
 * [876. Middle of the Linked List(Easy)](https://leetcode.com/problems/middle-of-the-linked-list/)       
-> Solution: slow and fast pointers.    
+> Solution:    
+> slow and fast pointers.     
 > ps: 
 > 1. Node 3 or Node 4: difference -> (fast != null && fast.next != null) vs  (fast.next != null && fast.next.next != null)    
 
 
 * [141. Linked List Cycle(Easy)](https://leetcode.com/problems/linked-list-cycle/)   
-> Explanation: There is a cycle in the linked list, where tail connects to the second node.     
-> Solution: slow and fast pointer. slow == fast then return true, or return false;     
+> Explanation:     
+> There is a cycle in the linked list, where tail connects to the second node.     
+> Solution:     
+> slow and fast pointer.        
+> slow == fast then return true, or return false;      
 
 
 ## Dummy Node     
@@ -78,7 +104,9 @@
 **ps**: Return **dummyHead.next** everytime!    
 
 * [21. Merge Two Sorted Lists(Easy)](https://leetcode.com/problems/merge-two-sorted-lists/)      
-> Solution: dummyHead as a new LinkedList; cur loop all and add nodes following rule until all lists empty;   
+> Solution: 
+> 1. Step1: dummyHead as a new LinkedList;    
+> 2. Step2: cur loop all and add nodes following rule until all lists empty;     
 > ps: 
 > 1. add node as a **new** ListNode;   
 > 2. move cur every time;     
