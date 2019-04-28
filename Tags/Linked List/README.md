@@ -47,8 +47,7 @@
 input: 1 -> 2 -> 3 -> null    
 **Java pass by value**: no need to worry about head pointer.    
 
-* get length    
-*return 3*    
+### get length     
 ```
 public int getLength(ListNode head) {
     int length = 0;
@@ -60,8 +59,7 @@ public int getLength(ListNode head) {
 }
 ```
 
-* get index    
-*index = 0 -> return 1*
+### get index    
 ```
 public ListNode getIndex(ListNode head, int index) {
    while (index > 0 && head != null) {
@@ -71,6 +69,22 @@ public ListNode getIndex(ListNode head, int index) {
    return index;
 }
 ```
+
+### append head  
+```
+public ListNode appendHead(ListNode head, int value) {
+   ListNode newHead = new ListNode(value);
+   newHead.next = head;
+   return newHead;
+}
+```
+
+### append tail   
+```
+
+
+```
+
 
 
 ## Classic    
