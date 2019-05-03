@@ -204,7 +204,17 @@ key: origin node; value: new node; <br>
 
 ## 144. Binary Tree Preorder Traversal
 * Tag: Tree;    
-* Solution:  Iteration: Stack; Recursion;   
+* Solution:  Iteration: Stack; Recursion;     
+
+
+## 148. Sort List  
+* Tag: LinkedList -> Combination;   
+> Solution: mid + merge + merge sort            
+> 1. find mid;   
+> 2. merge two list based on value;   
+* Time: O(nlogn);   
+* Space: O(n);     
+
 
 ## 150. Evaluate Reverse Polish Notation  
 * Tag: Stack -> Classic;   
@@ -489,7 +499,26 @@ isValid(left + 1, right), isValid(left, right - 1); <br>
 * Space: O(1);     
 
 ## 905. Sort Array By Parity  
-* Tag: Array -> swap
+* Tag: Two pointer;   
+> Solution:    
+> 1. i: slow pointer; j: find even num;   
+> 2. condition: swap when find even num; 
+* Time: O(n);   
+* Space: O(1);     
+
+
+## 922. Sort Array By Parity II    
+* Tag: Two Pointers;    
+> Assumptions: 
+> 1. num of even = num of odd.     
+> 2. array.length % 2 == 0.   
+> Solution:   
+> 1. i: even index; j: odd index;  
+> 2. condition: i find odd num, j find even num, then swap;   
+> Tips: 
+> 1. in while loop, mind index exception every condition and put it in the first place.    
+* Time: O(n);   
+* Space: O(1);    
 
 
 
@@ -502,9 +531,6 @@ startNode will not be in the hashMap. <br>
 bfs: <br>
 input: graph, hashMap; output: topSortOrder; <br>
 
-hello   
-world    
-1  
 
 
 

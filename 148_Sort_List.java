@@ -1,11 +1,4 @@
 /**
- * Tag: Linked List
- * Solution: Merge Sort
- * Time Complexity: O(nlogn)
- * Space Complexity: O(1)
- */
-
-/**
  * Definition for singly-linked list.
  * public class ListNode {
  *     int val;
@@ -14,17 +7,27 @@
  * }
  */
 
-public class Lc148_Sort_List {
+// * Tag: LinkedList -> Combination;
+// > Solution: mid + merge + merge sort
+// > 1. find mid;
+// > 2. merge two list based on value;
+// * Time: O(nlogn);
+// * Space: O(n);
+
+
+class Solution {
     public ListNode sortList(ListNode head) {
-        if (head == null || head.next == null) return head;
-
-        ListNode leftEnd = getMidNode(head);
-        ListNode right = leftEnd.next;
-        leftEnd.next = null;
-        return mergeTwoLists(sortList(head), sortList(right));
+        if (head == null || head.next == null) {
+            return head;
+        }
+        
+        ListNode mid = findMid(head);
+        ListNode halfStart = mid.next;
+        mid.next = null;
+        return merge(sortList(head), sortList(halfStart));
     }
-
-    private ListNode getMidNode(ListNode head) {
+    
+    private ListNode findMid(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
         while (fast.next != null && fast.next.next != null) {
@@ -33,32 +36,33 @@ public class Lc148_Sort_List {
         }
         return slow;
     }
-
-    private ListNode mergeTwoLists(ListNode head1, ListNode head2) {
-        ListNode headPrev = new ListNode(0);
-        ListNode tail = headPrev;
-
-        while (head1 != null && head2 != null) {
-            if (head1.val < head2.val) {
-                tail.next = head1;
-                head1 = head1.next;
-            } else{
-                tail.next = head2;
-                head2 = head2.next;
+    
+    private ListNode merge(ListNode l1, ListNode l2) {
+        ListNode dummyHead = new ListNode(0);
+        ListNode cur = dummyHead;
+        while (l1 != null && l2 != null) {
+            if (l1.val < l2.val) {
+                cur.next = l1;
+                l1 = l1.next;
+            } else {
+                cur.next = l2;
+                l2 = l2.next;
             }
-            tail = tail.next;
+            cur = cur.next;
         }
-
-        if (head1 != null) {
-            tail.next = head1;
-        } else{
-            tail.next = head2;
+        
+        if (l1 != null) {
+            cur.next = l1;
+        } else {
+            cur.next = l2;
         }
-        // 这里有点不清楚
-        return headPrev.next;
+        
+        return dummyHead.next;
+        
     }
-
 }
+
+
 
 
 
