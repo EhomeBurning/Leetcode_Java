@@ -12,6 +12,17 @@ x = x / 10;<br>
 check the OVERFLOW after reversing, so the result should be long type;<br>
 negative number case;<br>
 
+## 8. String to Integer (atoi)   
+* Tag: String;    
+> Solution:     
+> 1. firstChar as a sign;       
+> 2. see if the following char is digit or not;       
+> 3. if char, result = 10 * result + curNum;   
+* Time: O(n);    
+* Space: O(1);    
+* Tips:      
+1. mind MAX_VALUE and MIN_VALUE;   
+
 
 
 ## 9. Palindrome Number <br>
