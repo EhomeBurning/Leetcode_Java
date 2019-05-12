@@ -420,16 +420,15 @@ Overall: k * 3log(k) = klog(k); <br>
 
 
 ## 387. First Unique Character in a String
+* Assumption:   
+1. Only lower case;   
+* Tag: String;    
+* Solution:   
+int[] count = new int[26];    
+count[ch - 'a']++;   
+* Time: O(n);   
+* Space: O(1);   
 
-*Tag*: String;<br>
-*Solution*: <br>
-
-int[] count = new int[26]; <br>
-count[ch - 'a']++; <br>
-*Time*: O(n); <br>
-*Space*: O(1); <br>
-*Tips*: <br>
-1. str.length();
 
 
 
